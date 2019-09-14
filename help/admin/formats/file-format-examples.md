@@ -1,9 +1,9 @@
 ---
-description: Ejemplos de cómo se utilizan macros para crear plantillas de archivos FTP salientes.
-seo-description: Ejemplos de cómo se utilizan macros para crear plantillas de archivos FTP salientes.
+description: Ejemplos de cómo se utilizan las macros para crear plantillas de archivos FTP salientes.
+seo-description: Ejemplos de cómo se utilizan las macros para crear plantillas de archivos FTP salientes.
 seo-title: Ejemplos de macros de formato de archivo
 title: Ejemplos de macros de formato de archivo
-uuid: f 00 d 431 d -7 e 43-457 a-b 633-c 79 cbc 4 c 8 f 10
+uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
 translation-type: tm+mt
 source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
 
@@ -12,15 +12,15 @@ source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
 
 # Ejemplos de macros de formato de archivo {#file-format-macro-examples}
 
-Ejemplos de cómo se utilizan macros para crear plantillas [!DNL FTP] de archivos salientes.
+Ejemplos de cómo se utilizan las macros para crear plantillas de archivo salientes [!DNL FTP] .
 
 >[!NOTE]
 >
->En las tablas, **el tipo de negrita** identifica cada macro con su salida relacionada. Para los ejemplos de formato, se han agregado los símbolos &lt; &gt; para ayudar visualmente a separar cada macro.
+>En las tablas, el tipo de **negrita** identifica cada macro con su salida relacionada. En los ejemplos de formato, se han agregado los símbolos &lt; &gt; para ayudar a separar visualmente cada macro.
 
 ## Macros comunes {#common-macros}
 
-Estas macros se pueden utilizar en cualquier campo de formato. Consulte Macros de formato [de archivo](../formats/file-formats.md) para obtener una lista completa y definiciones.
+Estas macros se pueden utilizar en cualquier campo de formato. Consulte las macros [Formato de archivo](../formats/file-formats.md) para obtener una lista y definiciones completas.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -32,43 +32,43 @@ Estas macros se pueden utilizar en cualquier campo de formato. Consulte Macros d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>DPID </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; SYNC_ TYPE &gt;_ &lt; ORDER_ ID &gt;_ &lt; DPID &gt;_ &lt; SYNC_ MODE &gt;_ &lt; TIMESTAMP &gt;. sync </code> </p> <p>Salida: <code>ftp_ 215_ 888_ iter_ 1449756724. sync </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_ &lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Salida: <code>ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>MASTER_ DPID </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; SYNC_ TYPE &gt;_ &lt; ORDER_ ID &gt;_ &lt; DPID &gt;_ &lt; MASTER_ DPID &gt;_ &lt; SYNC_ MODE &gt;_ &lt; TIMESTAMP &gt;. sync </code> </p> <p>Salida: <code>ftp_ 215_ 888_ 20915_ iter_ 1449756724. sync </code> </p> </td> 
+   <td colname="col1"> <p> <code>MASTER_DPID </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;MASTER_DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Salida: <code>ftp_215_888_ 20915_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>ORDER_ ID </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; SYNC_ TYPE &gt;_ &lt; ORDER_ ID &gt;_ &lt; DPID &gt;_ &lt; SYNC_ MODE &gt;_ &lt; TIMESTAMP &gt;. sync </code> </p> <p>Salida: <code>ftp_ 215_ 888_ iter_ 1449756724. sync </code> </p> </td> 
+   <td colname="col1"> <p> <code>ORDER_ID </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;SYNC_TYPE&gt;_ &lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Salida: <code>ftp_215_888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>SYNC_ MODE </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; SYNC_ TYPE &gt;_ &lt; ORDER_ ID &gt;_ &lt; DPID &gt;_ &lt; SYNC_ MODE &gt;_ &lt; TIMESTAMP &gt;. sync </code> </p> <p>Salida: 
+   <td colname="col1"> <p> <code>SYNC_MODE </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Salida: 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Completa: <code>ftp_ 215_ 888_ full_ 1449756724. sync </code> </li> 
-      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Aumento: <code>ftp_ 215_ 888_ iter_ 1449756724. sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Completa: <code>ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Incremental: <code>ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>SYNC_ TYPE </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; SYNC_ TYPE &gt;_ &lt; ORDER_ ID &gt;_ &lt; DPID &gt;_ &lt; SYNC_ MODE &gt;_ &lt; TIMESTAMP &gt;. sync </code> </p> <p>Salida: 
+   <td colname="col1"> <p> <code>SYNC_TYPE </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Salida: 
      <ul id="ul_11B14E740E40474F8302BDB809C428FE"> 
-      <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <code>ftp_ 215_ 888_ iter_ 1449756724. sync </code> </li> 
-      <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https: <code>http_ 215_ 888_ iter_ 1449756724. sync </code> </li> 
-      <li id="li_8A204C7BEDBC41C096FE953B5F827DEC">S 3: <code>s 3_ 215_ 888_ iter_ 1449756724. sync </code> </li> 
+      <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <code>ftp_215_888_iter_1449756724.sync </code> </li> 
+      <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https: <code>http_215_888_iter_1449756724.sync </code> </li> 
+      <li id="li_8A204C7BEDBC41C096FE953B5F827DEC">S3: <code>s3_215_888_iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; SYNC_ TYPE &gt;_ &lt; ORDER_ ID &gt;_ &lt; DPID &gt;_ &lt; SYNC_ MODE &gt;_ &lt; TIMESTAMP &gt;. sync </code> </p> <p>Salida: <code>ftp_ 215_ 888_ iter_ 1449756724. sync </code> </p> </td> 
+   <td colname="col1"> <p> <code>MARCA DE HORA </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_ &lt;TIMESTAMP&gt;.sync </code> </p> <p>Salida: <code>ftp_215_888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Macros de campo de encabezado {#header-field-macros}
 
-Macros utilizadas únicamente en los campos del encabezado. Consulte Macros de formato [de archivo](../formats/file-formats.md) para obtener una lista completa y definiciones.
+Macros utilizadas solo en campos de encabezado. Consulte las macros [Formato de archivo](../formats/file-formats.md) para obtener una lista y definiciones completas.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -80,14 +80,14 @@ Macros utilizadas únicamente en los campos del encabezado. Consulte Macros de f
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; ORDER_ ID &gt; &lt; TAB &gt; &lt; SYNC_ TYPE &gt; </code> </p> <p>Salida: <code>888 full. sync </code> </p> <p>En el resultado, el carácter de tabulación no imprimible separa cada elemento. </p> </td>
+   <td colname="col2"> <p>Formato: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Salida: <code>888 full.sync </code> </p> <p>En el resultado, el carácter de tabulación sin impresión separa cada elemento. </p> </td>
   </tr>
  </tbody>
 </table>
 
 ## Macros de fila de datos {#data-row-macros}
 
-Macros utilizadas únicamente en los campos del encabezado. Consulte Macros de formato [de archivo](../formats/file-formats.md) para obtener una lista completa y definiciones.
+Macros utilizadas solo en campos de encabezado. Consulte las macros [Formato de archivo](../formats/file-formats.md) para obtener una lista y definiciones completas.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -98,38 +98,35 @@ Macros utilizadas únicamente en los campos del encabezado. Consulte Macros de f
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code>DP_ UUID </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; DP_ UUID &gt; &lt; TAB &gt; &lt; DP_ UUID_ LIST; separator = TAB &gt; </code> </p> <p>Salida: <code>123456 UUID 1 UUID 2 UUID 3 </code> </p> </td> 
+   <td colname="col1"> <p> <code>DP_UUID </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UID_LIST;separator=TAB&gt; </code> </p> <p>Salida: UUID1 UUID2 UUID3 <code>123456 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>DP_ UUID_ LIST </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; DP_ UUID &gt; &lt; TAB &gt; &lt; DP_ UUID_ LIST; separator = TAB &gt; </code> </p> <p>Salida: <code>123456 UUID 1 UUID 2 UUID 3 </code> </p> </td> 
+   <td colname="col1"> <p> <code>DP_UID_LIST </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;DP_UUID&gt;&lt;TAB&gt; &lt;DP_UID_LIST;separator=TAB&gt; </code> </p> <p>Salida: UUID1 UUID2 UUID3 <code>123456 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>SEGMENT_ LIST &amp; &amp; REMOVED_ SEGMENT_ LIST </code> </p> </td> 
-   <td colname="col2"> <p>Este ejemplo crea un formato que devuelve segmentos eliminados en una fuente servidor a servidor. </p> <p> 
-     <code>{"Advertiserid": " &lt; PIDALIAS &gt; "," datacenterid ": 2, "TDID": " &lt; DP_ UUID &gt; ", 
- " Datos ": [&lt; SEGMENT_ LIST: {seg|&lt; OPEN_ CURLY_ BRACKET &gt; "Name": " &lt; seg. alias &gt; " &lt; CLOSE_ CURLY_ BRACKET &gt;}; 
- separator = "," &gt; &lt; if (SEGMENT_ LIST &amp; &amp; REMOVED_ SEGMENT_ LIST) &gt; &lt; COMA &gt; &lt; endif &gt; 
- &lt; REMOVED_ SEGMENT_ LIST: {seg|&lt; OPEN_ CURLY_ BRACKET &gt; "Name": " &lt; seg. alias &gt; ", 
- " Ttlinminutes ": 0 &lt; CLOSE_ CURLY_ BRACKET &gt;}; separator = "," &gt;]} </code>
-  </p> </td> 
+   <td colname="col1"> <p> <code>SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>En este ejemplo se crea un formato que devuelve segmentos eliminados en una fuente de servidor a servidor. </p> <p> 
+     <code>
+       {"AdvertiserId":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
+      separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACET&gt;}; separator=","&gt;]} </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>SEGMENT_ LIST </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; DP_ UUID &gt; &lt; SEGMENT_ LIST &gt;; separator = "" &gt; </code> </p> <p>Salida: <code>123456 105955 101183 101180 101179 </code> </p> </td> 
+   <td colname="col1"> <p> <code>SEGMENT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;DP_UUID&gt; &lt;SEGMENT_LIST&gt;;separator=" "&gt; </code> </p> <p>Salida: <code>123456 105955 101183 101180 101179 </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>SET_ ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; PID &gt; &lt; TAB &gt; &lt; UUID &gt; &lt; TAB &gt; &lt; DP_ UUID &gt; &lt; TAB &gt; &lt; SET_ ATTRIBUTES &gt; &lt; TAB &gt; &lt; OPT_ OUT &gt; &lt; TAB &gt; &lt; SEGMENT_ LIST: {seg|&lt; seg. type &gt;, &lt; seg. alias &gt;, &lt; OUTPUT_ ATTRIBUTE_ VALUE &gt;, &lt; seg. lastupdatetime &gt; &amp;} &gt; </code> </p> <p>Salida: <code>1159 00088008579683653741516297509717335000 17 t 0 aj 01 b 120 hp 1 0 5,103714,1.1344114661000 &amp; 5,103713,1,1343250661000 </code> </p> </td>
+   <td colname="col1"> <p> <code>SET_ATTRIBUTES </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;PID&gt;&lt;TAB&gt;&lt;UUID&gt;&lt;TAB&gt;&lt;DP_UID&gt;&lt;TAB&gt;&lt;TAB&gt; &lt;SET_ATTRIBUTES&gt;&lt;TAB&gt;&lt;OPT_OUT&gt;&lt;TAB&gt;&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.alias&gt;,&lt;OUTPUT_ATTRIBUTE_VALUE&gt;,&lt;seg.lastUpdateTime&gt;&amp;}&gt; </code> </p> <p>Salida: <code>1159 00088008579683653741516297509717335000 17t0aj01b12 0hp 1 0 5,103714,1,134114661000 y 5,103713,1,1343250661000 </code> </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; DP_ UUID &gt; &lt; TAB &gt; &lt; DP_ UUID_ LIST; separator = TAB &gt; </code> </p> <p>Salida: <code>123456 UUID 1 UUID 2 UUID 3 </code> </p> <p>En el resultado, el carácter de tabulación no imprimible separa cada elemento. </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UID_LIST;separator=TAB&gt; </code> </p> <p>Salida: UUID1 UUID2 UUID3 <code>123456 </code> </p> <p>En el resultado, el carácter de tabulación sin impresión separa cada elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>TRAIT_ LIST </code> </p> </td> 
-   <td colname="col2"> <p>Formato: <code>&lt; PID &gt; &lt; TAB &gt; &lt; DP_ UUID &gt; &lt; TAB &gt; &lt; SET_ ATTRIBUTES &gt; &lt; TAB &gt; &lt; TRAIT_ LIST; separator = «|» &gt; </code> </p> <p>Salida: <code>1131 12345 1 123|456|789 </code> </p> </td> 
+   <td colname="col1"> <p> <code>TRAIT_LIST </code> </p> </td> 
+   <td colname="col2"> <p>Formato: <code>&lt;PID&gt;&lt;TAB&gt;&lt;DP_UUID&gt;&lt;TAB&gt;&lt;SET_ATTRIBUTES&gt;&lt;TAB&gt; &lt;TRAIT_LIST;separator="|"&gt; </code> </p> <p>Salida: <code>1131 12345 1 123|456|789 </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
