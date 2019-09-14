@@ -1,18 +1,18 @@
 ---
-description: La herramienta Administración de Audience Manager permite agregar y configurar empresas, servidores, informes, formatos y usuarios. También puede ver o editar su perfil personal.
-seo-description: La herramienta Administración de Audience Manager permite agregar y configurar empresas, servidores, informes, formatos y usuarios. También puede ver o editar su perfil personal.
-seo-title: Página principal del administrador de Audience Manager
-title: Página principal del administrador de Audience Manager
-uuid: 4534 b 622-4 c 8 d -4 c 42-8019-1614 faaba 9 d 6
+description: La herramienta de administración de Audience Manager permite agregar y configurar empresas, servidores, informes, formatos y usuarios. También puede ver o editar su perfil personal.
+seo-description: La herramienta de administración de Audience Manager permite agregar y configurar empresas, servidores, informes, formatos y usuarios. También puede ver o editar su perfil personal.
+seo-title: Inicio del administrador de Audience Manager
+title: Inicio del administrador de Audience Manager
+uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 ---
 
 
-# Página principal del administrador de Audience Manager {#audience-manager-admin-home}
+# Inicio del administrador de Audience Manager {#audience-manager-admin-home}
 
-La herramienta Administración de Audience Manager permite agregar y configurar empresas, servidores, informes, formatos y usuarios. También puede ver o editar su perfil personal.
+La herramienta de administración de Audience Manager permite agregar y configurar empresas, servidores, informes, formatos y usuarios. También puede ver o editar su perfil personal.
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -22,12 +22,12 @@ La herramienta Administración de Audience Manager permite agregar y configurar 
        c_home.xml 
      </draft-comment>Pase el ratón sobre un título para ver una descripción breve. </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
-      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> Instrucciones: Autorizar acceso de contenedor de Amazon S 3 para destinos por lotes</a> </li> 
-      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Cómo configurar los destinos para exportar Experience Cloud…</a> </li> 
+      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> Cómo: Autorizar el acceso de cubos de cuentas múltiples a Amazon S3 para destinos por lotes</a> </li> 
+      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Cómo configurar sus destinos para exportar Experience Cloud...</a> </li> 
       <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> Macros de formato HTTP</a> </li> 
-      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Requisitos de API y Recomendaciones</a> </li> 
-      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> Habilitar transferencias de archivos de secuencia Hadoop para salida</a> </li> 
-      <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> Opciones de gráfico de dispositivos para empresas</a> </li> 
+      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Requisitos de API y recomendaciones</a> </li> 
+      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> Habilitar las transferencias de archivos de secuencia de Hadoop para la salida</a> </li> 
+      <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> Opciones de Device Graph para empresas</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Notas de la versión</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
