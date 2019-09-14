@@ -1,6 +1,6 @@
 ---
-description: 'Utilice el registro de auditoría como primer lugar para depurar los problemas de los clientes. '
-seo-description: 'Utilice el registro de auditoría como primer lugar para depurar los problemas de los clientes. '
+description: 'Utilice el registro de auditoría como primer lugar para depurar problemas de clientes. '
+seo-description: 'Utilice el registro de auditoría como primer lugar para depurar problemas de clientes. '
 seo-title: Registro de auditoría
 title: Registro de auditoría
 uuid: null
@@ -12,15 +12,15 @@ source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 # Registro de auditoría {#audit-logging}
 
-Utilice [!UICONTROL  Audit Logging] como primer lugar para depurar los problemas de los clientes.
+Se utiliza [!UICONTROL  Audit Logging] como primer lugar para depurar problemas de clientes.
 
 > [!NOTE]
 >
->[!UICONTROL Audit Logging] está actualmente en desarrollo y sujeto a cambios. Registre los problemas que encuentre en [!DNL JIRA] ([!DNL UI] equipo)
+>[!UICONTROL Audit Logging] está actualmente en desarrollo y sujeto a cambios. Registre cualquier problema que encuentre en [!DNL JIRA] ([!DNL UI] equipo)
 
-![Vista de registro de auditoría](assets/audit-logging-img.png)
+![Vista Registro de auditoría](assets/audit-logging-img.png)
 
-En **el selector** desplegable Tipo de auditoría, elija entre:
+En el selector desplegable Tipo **de** auditoría, elija entre:
 
 * [!UICONTROL Partner]
 * [!UICONTROL User]
@@ -39,11 +39,11 @@ En **el selector** desplegable Tipo de auditoría, elija entre:
 * [!UICONTROL Model]
 * [!UICONTROL Segment Test Group]
 
-El ID **de objeto** es el ID del elemento que está investigando. Consulte la tabla siguiente para ver el ID que corresponde al ID de objeto en cada caso:
+El ID **del** objeto es el ID del elemento que está investigando. Consulte la tabla siguiente para la cual el ID corresponde al ID de objeto en cada caso:
 
 | Tipo de auditoría | ID del objeto |
 ---------|----------|
-| [!UICONTROL Partner] | ID del socio - PID |
+| [!UICONTROL Partner] | ID del socio: PID |
 | [!UICONTROL User] | ID de usuario |
 | [!UICONTROL Group] | B3 |
 | [!UICONTROL Datasource Summary] | ID de fuente de datos |
@@ -51,8 +51,8 @@ El ID **de objeto** es el ID del elemento que está investigando. Consulte la ta
 | [!UICONTROL Merge Rule Datasource] | ID de fuente de datos |
 | [!UICONTROL Data Feed] | ID de fuente de datos |
 | [!UICONTROL Data Feed Subscription] | ID de fuente de datos |
-| [!UICONTROL Trait Summary] | SID (trait) |
-| [!UICONTROL Trait Rule] | SID (trait) |
+| [!UICONTROL Trait Summary] | SID (característica) |
+| [!UICONTROL Trait Rule] | SID (característica) |
 | [!UICONTROL Segment Summary] |  |
 | [!UICONTROL Destination Summary] |  |
 | [!UICONTROL Server-to-Server Destination] | N.D. |
