@@ -1,35 +1,35 @@
 ---
-description: Utilice la página Servidores de la herramienta Administración de Audience Manager para crear un nuevo servidor HTTP o editar un servidor existente.
-seo-description: Utilice la página Servidores de la herramienta Administración de Audience Manager para crear un nuevo servidor HTTP o editar un servidor existente.
-seo-title: Creación o edición de un servidor HTTP
-title: Creación o edición de un servidor HTTP
-uuid: 1 ef 0 e 751-e 239-4 dc 6-a 4 f 6-73 cc 05686807
+description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor HTTP o editar un servidor existente.
+seo-description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor HTTP o editar un servidor existente.
+seo-title: Crear o editar un servidor HTTP
+title: Crear o editar un servidor HTTP
+uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
 
 ---
 
 
-# Creación o edición de un servidor HTTP {#create-or-edit-an-http-server}
+# Crear o editar un servidor HTTP {#create-or-edit-an-http-server}
 
-Utilice [!UICONTROL Servers] la página de la herramienta de administración de Audience Manager para crear un nuevo servidor HTTP o editar un servidor existente.
+Utilice la página de la herramienta de administración de Audience Manager para crear un nuevo servidor HTTP o editar un servidor existente. [!UICONTROL Servers]
 
 >[!NOTE]
 >
->Debe tener [!UICONTROL DEXADMIN] la función para crear nuevos servidores o editar los servidores existentes.
+>Debe tener la [!UICONTROL DEXADMIN] función para crear nuevos servidores o editar los existentes.
 
-1. Para crear un nuevo servidor, vaya **[!UICONTROL Servers]** a &gt; **[!UICONTROL Create Server]**. Para editar un servidor existente, haga clic en el servidor que desee en **[!UICONTROL Label]** la columna.
+1. Para crear un nuevo servidor, vaya a **[!UICONTROL Servers]** &gt; **[!UICONTROL Create Server]**. Para editar un servidor existente, haga clic en el servidor que desee en la **[!UICONTROL Label]** columna.
 1. Especifique la etiqueta que desee para este servidor.
 1. En la lista **[!UICONTROL Protocol]** desplegable, seleccione el protocolo que desee: [!DNL HTTP].
 1. Rellene los campos:
 
-   * **[!UICONTROL Domain]:** Especifique el dominio (host) deseado para este servidor.
-   * **[!UICONTROL Port]:** Especifique el puerto deseado para este servidor. Se muestra el puerto predeterminado para cada tipo de codificación. Puede cambiar el puerto predeterminado, si es necesario
-   * **[!UICONTROL Maximum Users Per Request]:** Especifique el número máximo de usuarios por solicitud permitida para este servidor.
-   * **[!UICONTROL URL Prefix]:** Especifique el [!DNL URL] prefijo que debe utilizarse para este servidor.
-   * **[!UICONTROL Authentication URL]:** Especifique la [!UICONTROL Authentication URL] para este `HTTP` servidor.
-   * **[!UICONTROL Authentication]:** Especifique el método de autenticación que desee: **[!UICONTROL None]**, **[!UICONTROL Username/Password]** o **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]:** Nombre del [!DNL HTTP] encabezado proporcionado por el cliente que contiene la clave [!DNL HTTP] de firma. El valor predeterminado es [!UICONTROL X-Signature], como se muestra en el ejemplo siguiente:
+   * **[!UICONTROL Domain]** :: Especifique el dominio (host) deseado para este servidor.
+   * **[!UICONTROL Port]** :: Especifique el puerto deseado para este servidor. Se muestra el puerto predeterminado para cada tipo de codificación. Si es necesario, puede cambiar el puerto predeterminado
+   * **[!UICONTROL Maximum Users Per Request]** :: Especifique el número máximo de usuarios por solicitud permitida para este servidor.
+   * **[!UICONTROL URL Prefix]** :: Especifique el [!DNL URL] prefijo que se usará para este servidor.
+   * **[!UICONTROL Authentication URL]** :: Especifique el [!UICONTROL Authentication URL] para este `HTTP` servidor.
+   * **[!UICONTROL Authentication]** :: Especifique el método de autenticación deseado: **[!UICONTROL None]**, **[!UICONTROL Username/Password]** o **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]** :: El nombre del [!DNL HTTP] encabezado, proporcionado por el cliente, que contiene la clave de [!DNL HTTP] firma. El valor predeterminado es [!UICONTROL X-Signature], como se muestra en el ejemplo siguiente:
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -42,12 +42,12 @@ Utilice [!UICONTROL Servers] la página de la herramienta de administración de 
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:** Clave utilizada para firmar [!DNL HTTP] la solicitud, proporcionada por el cliente.
-   * **[!UICONTROL Show Signature Key]:** Alternar si se muestra o no la firma en el navegador.
-   * **[!UICONTROL HTTP Signature Encryption Method]:** Especifique el método que utilizamos para cifrar la firma. Se utiliza [!UICONTROL SHA1] a menos que el cliente prefiera.
+   * **[!UICONTROL HTTP Signature Key]** :: Clave utilizada para firmar la [!DNL HTTP] solicitud, proporcionada por el cliente.
+   * **[!UICONTROL Show Signature Key]** :: Alterne si desea o no mostrar la firma en el explorador.
+   * **[!UICONTROL HTTP Signature Encryption Method]** :: Especifique el método que usamos para cifrar la firma. Utilícelo [!UICONTROL SHA1] a menos que el cliente prefiera lo contrario.
    >[!NOTE]
    >
-   >Si desea habilitar [la autenticación oauth 2.0 para transferencias de datos en tiempo real](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html) para un socio, rellene los campos como se muestra en la siguiente tabla. Los campos en *cursiva* deben rellenarse exactamente como en la tabla.
+   >Si desea habilitar la autenticación [OAuth 2.0 para transferencias](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html) de datos en tiempo real para un socio, rellene los campos como se muestra en la tabla siguiente. Los campos en *cursiva* deben rellenarse exactamente como en la tabla.
 
    | Nombre  | Valor |
    |---|---|
@@ -60,9 +60,9 @@ Utilice [!UICONTROL Servers] la página de la herramienta de administración de 
    | [!UICONTROL Authentication URL] | [!UICONTROL api.partner.com/oauth2/token] |
    | [!UICONTROL Authentication] | [!UICONTROL Username/Password] |
    | [!UICONTROL Username] | [!UICONTROL *Autorización *] |
-   | [!UICONTROL Password] | your_ password_ here |
+   | [!UICONTROL Password] | your_password_here |
    | [!UICONTROL HTTP Signature Header] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Encryption Method] | [!UICONTROL None] |
 
-1. Haga clic **[!UICONTROL Create]** en si está creando un servidor nuevo o si está **[!UICONTROL Update]** editando un servidor existente.
+1. Haga clic **[!UICONTROL Create]** si está creando un nuevo servidor o haga clic en **[!UICONTROL Update]** si está editando un servidor existente.
