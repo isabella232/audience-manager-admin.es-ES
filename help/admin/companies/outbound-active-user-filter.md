@@ -2,7 +2,7 @@
 description: Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. Es posible que desee filtrar para que los usuarios activos inserten datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un DSP. No puede utilizar este filtro con sincronización incremental.
 seo-description: Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. Es posible que desee filtrar para que los usuarios activos inserten datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un DSP. No puede utilizar este filtro con sincronización incremental.
 seo-title: Filtrar datos de salida solo por usuarios activos
-title: Filtrar datos de salida solo por usuarios activos
+title: ' Filtrar datos de salida solo por usuarios activos'
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
