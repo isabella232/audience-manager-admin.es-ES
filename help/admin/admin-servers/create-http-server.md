@@ -1,8 +1,8 @@
 ---
 description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor HTTP o editar un servidor existente.
 seo-description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor HTTP o editar un servidor existente.
-seo-title: Crear o editar un servidor HTTP
-title: Crear o editar un servidor HTTP
+seo-title: ' Crear o editar un servidor HTTP'
+title: ' Crear o editar un servidor HTTP'
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
