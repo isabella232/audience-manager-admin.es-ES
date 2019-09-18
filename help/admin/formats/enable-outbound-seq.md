@@ -1,8 +1,8 @@
 ---
 description: Puede activar las transferencias por lotes de archivos de secuencias de Hadoop binarios (SEQ) salientes para los clientes de Audience Manager.
 seo-description: Puede activar las transferencias por lotes de archivos de secuencias de Hadoop binarios (SEQ) salientes para los clientes de Audience Manager.
-seo-title: Habilitar las transferencias de archivos de secuencia de Hadoop para la salida
-title: Habilitar las transferencias de archivos de secuencia de Hadoop para la salida
+seo-title: ' Habilitar las transferencias de archivos de secuencia de Hadoop para la salida'
+title: ' Habilitar las transferencias de archivos de secuencia de Hadoop para la salida'
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
