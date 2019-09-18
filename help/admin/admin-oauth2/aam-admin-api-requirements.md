@@ -1,8 +1,8 @@
 ---
 description: Cosas que debe animar a los clientes a que sepan cuándo trabajan con las API de Audience Manager.
 seo-description: Cosas que debe animar a los clientes a que sepan cuándo trabajan con las API de Audience Manager.
-seo-title: Requisitos de API y recomendaciones
-title: Requisitos de API y recomendaciones
+seo-title: ' Requisitos de API y recomendaciones'
+title: ' Requisitos de API y recomendaciones'
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
