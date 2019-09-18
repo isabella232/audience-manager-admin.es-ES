@@ -1,8 +1,8 @@
 ---
 description: Cree, edite y elimine destinos de Audience Manager.
 seo-description: Cree, edite y elimine destinos de Audience Manager.
-seo-title: Administrar destinos de empresa
-title: Administrar destinos de empresa
+seo-title: ' Administrar destinos de empresa'
+title: ' Administrar destinos de empresa'
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
