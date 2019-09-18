@@ -21,8 +21,8 @@ Para obtener información sobre las versiones, mejoras y correcciones de errores
 
 | Tema | Descripción |
 ---------|----------|
-| Macros de formato HTTP | Hemos añadido una nueva macro, `REGION_ID_LIST`y tres campos nuevos,`sda`y`sda`a la `sda` `USER_LIST` macro. |
-| Macros de formato HTTP | Hemos añadido dos macros nuevas: `ECID` y `MCID`. |
+|  Macros de formato HTTP | Hemos añadido una nueva macro, `REGION_ID_LIST`y tres campos nuevos,`sda`y`sda`a la `sda` `USER_LIST` macro. |
+|  Macros de formato HTTP | Hemos añadido dos macros nuevas: `ECID` y `MCID`. |
 
 
 ## Actualizaciones de documentación de AAM 2018 {#aam-2018-docs-updates}
