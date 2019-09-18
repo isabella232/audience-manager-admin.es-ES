@@ -1,7 +1,7 @@
 ---
 description: De forma predeterminada, todas las empresas sincronizan datos con Adobe Media Optimizer (AMO). En la interfaz de usuario del administrador, cada contenedor de empresa tiene un origen de datos que administra este proceso. Esta fuente de datos es Adobe AMO (ID 411). Haga clic en una fila de contenedor (en la ficha Contenedores) para que una empresa seleccionada desactive esta sincronización predeterminada o para agregar y quitar otras fuentes de datos al proceso de sincronización de AMO.
 seo-description: De forma predeterminada, todas las empresas sincronizan datos con Adobe Media Optimizer (AMO). En la interfaz de usuario del administrador, cada contenedor de empresa tiene un origen de datos que administra este proceso. Esta fuente de datos es Adobe AMO (ID 411). Haga clic en una fila de contenedor (en la ficha Contenedores) para que una empresa seleccionada desactive esta sincronización predeterminada o para agregar y quitar otras fuentes de datos al proceso de sincronización de AMO.
-seo-title: Sincronización de ID con Media Optimizer
+seo-title: ' Sincronización de ID con Media Optimizer'
 title: Sincronización de ID con Media Optimizer
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 translation-type: tm+mt
