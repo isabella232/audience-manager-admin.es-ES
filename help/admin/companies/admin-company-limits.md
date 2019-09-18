@@ -1,7 +1,7 @@
 ---
 description: Administre los siguientes límites para los modelos algorítmicos, segmentos, destinos y características de la empresa.
 seo-description: Administre los siguientes límites para los modelos algorítmicos, segmentos, destinos y características de la empresa.
-seo-title: Administrar límites de empresa
+seo-title: ' Administrar límites de empresa'
 title: Administrar límites de empresa
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
 translation-type: tm+mt
@@ -33,7 +33,7 @@ Administre los siguientes límites para la empresa: modelos algorítmicos, segme
       * **[!UICONTROL Total Number]**:: Especifique el número total de segmentos que puede tener esta empresa.
    * **[!UICONTROL Destinations Limits]**:: Especifique los límites de destino para esta empresa:
       * **[!UICONTROL Total Number]**:: Especifique el número total de destinos que puede tener esta empresa.
-      * **[!UICONTROL Max Number of URL Destinations]**:: Especifique el número máximo de destinos de URL que puede tener esta empresa.
+      * **[!UICONTROL Max Number of URL Destinations]**:: Especifique el número máximo de destinos URL que puede tener esta empresa.
       * **[!UICONTROL Max Number of AdServer Destinations]**:: Especifique el número máximo de [!UICONTROL AdServer] destinos que puede tener esta empresa.
       * **[!UICONTROL Max Number of S2S Destinations]**:: Especifique el número máximo de destinos de S2S que puede tener esta empresa.
    * **[!UICONTROL Trait Limits]**:: Especifique los límites de características de esta empresa:
