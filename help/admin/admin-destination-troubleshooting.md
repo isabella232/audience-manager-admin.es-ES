@@ -1,8 +1,8 @@
 ---
 description: Información para configurar destinos en Audience Manager y evitar problemas comunes.
 seo-description: Información para configurar destinos en Audience Manager y evitar problemas comunes.
-seo-title: Solución de problemas de configuración de destino
-title: Solución de problemas de configuración de destino
+seo-title: ' Solución de problemas de configuración de destino'
+title: ' Solución de problemas de configuración de destino'
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 translation-type: tm+mt
 source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
@@ -53,7 +53,7 @@ Para obtener más información sobre la configuración de formatos y el uso de m
          * El nombre del bloque debe aparecer sin barras, prefijos, sufijos, etc. Si se le da la dirección [!DNL s3://your-bucket] debe simplemente agregarla [!DNL your-bucket] a este campo.
       * **[!UICONTROL Directory]**
          * Deje este campo en blanco a menos que se le proporcione específicamente un subdirectorio en el cual se deben colocar los datos. Si se le da la dirección [!DNL s3://your-bucket/your-subdirectory], introduzca [!DNL your-bucket] en el [!UICONTROL Bucket] campo y [!DNL your-subdirectory] debe agregarse al [!UICONTROL Directory] . No agregue barras inclinadas anteriores.
-         * Si tiene que recorrer varios directorios por la ruta, sólo entonces debe utilizar barras diagonales como separadores. Así que una ubicación de [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] habría [!DNL your-bucket] en el [!UICONTROL Bucket] campo y [!DNL your-subdirectory1/your-subdirectory2] entraría en el [!UICONTROL Directory] campo.
+         * Si tiene que recorrer varios directorios por la ruta, sólo entonces debe utilizar barras diagonales como separadores. Entonces una ubicación de [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] habría [!DNL your-bucket] en el [!UICONTROL Bucket] campo y [!DNL your-subdirectory1/your-subdirectory2] entraría en el [!UICONTROL Directory] campo.
       * **[!UICONTROL Access / Secret Keys]**
          * Cuando [!DNL TechOps] crea un bloque y proporciona claves de acceso/secreto a un consultor, estas credenciales suelen ser `READ-ONLY` credenciales que deben entregarse al cliente. Estas credenciales no se deben introducir en los [!UICONTROL Access / Secret Key] campos, ya que esto provocará que la transferencia falle (porque esas credenciales son de sólo lectura, no se pueden escribir). En el caso de que [!DNL TechOps] cree un bucket y proporcione credenciales, el consultor también debe solicitar un par de claves de Adobe (NO SE LE DEBE DAR AL CLIENTE) que permita escribir archivos en este bucket. Esa clave debe agregarse a estos campos.
 
