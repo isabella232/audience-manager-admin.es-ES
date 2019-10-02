@@ -1,11 +1,11 @@
 ---
 description: Ver o editar proveedores de datos para contenedores.
 seo-description: Ver o editar proveedores de datos para contenedores.
-seo-title: ' Administrar contenedores'
+seo-title: Administrar contenedores
 title: Administrar contenedores
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
 
 ---
 
@@ -18,7 +18,7 @@ Ver o editar proveedores de datos para contenedores.
 
 >[!NOTE]
 >
->De forma predeterminada, las empresas se crean con un contenedor. Puede crear más contenedores para una empresa en la interfaz de usuario, en **[!UICONTROL Manage Data > Tags]**.
+>De forma predeterminada, las empresas se crean con un contenedor. Puede crear más contenedores para una empresa en la interfaz de usuario, en **[!UICONTROL Tools > Tags]**.
 
 1. Haga clic en **[!UICONTROL Companies]**, luego busque y haga clic en la empresa que desee para mostrar su [!UICONTROL Profile] página.
 
@@ -32,7 +32,7 @@ Ver o editar proveedores de datos para contenedores.
 
    ![Resultado del paso](assets/containers_edit.png)
 
-1. Mueva las fuentes de datos de las listas **[!UICONTROL Available Data Sources]** y **[!UICONTROL Selected Data Sources for This Container]** seleccionando las fuentes de datos deseadas y haciendo clic en las flechas derecha o izquierda según sea necesario.
+1. Move data sources from the  and  lists by selecting the desired data sources, then clicking the right or left arrows as necessary.**[!UICONTROL Available Data Sources]****[!UICONTROL Selected Data Sources for This Container]**
 
    También puede realizar esta tarea desde la página [del](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)proveedor de datos de terceros.
 
