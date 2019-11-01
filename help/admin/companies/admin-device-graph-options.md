@@ -5,7 +5,7 @@ seo-title: Opciones de Device Graph para empresas
 title: Opciones de Device Graph para empresas
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 translation-type: tm+mt
-source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -46,7 +46,7 @@ Estas casillas de verificación se activan en el [!DNL Admin UI] momento en que 
 
 ![](assets/adminUI2.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Opciones de regla de combinación de perfiles definidas](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
 >* [Configuración y opciones de menú de la fuente de datos](https://marketing.adobe.com/resources/help/en_US/aam/datasource-settings-definitions.html)
