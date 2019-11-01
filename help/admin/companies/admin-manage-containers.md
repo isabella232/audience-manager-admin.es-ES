@@ -5,7 +5,7 @@ seo-title: Administrar contenedores
 title: Administrar contenedores
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
-source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -32,13 +32,13 @@ Ver o editar proveedores de datos para contenedores.
 
    ![Resultado del paso](assets/containers_edit.png)
 
-1. Move data sources from the  and  lists by selecting the desired data sources, then clicking the right or left arrows as necessary.**[!UICONTROL Available Data Sources]****[!UICONTROL Selected Data Sources for This Container]**
+1. Mueva las fuentes de datos de las listas **[!UICONTROL Available Data Sources]** y **[!UICONTROL Selected Data Sources for This Container]** seleccionando las fuentes de datos deseadas y haciendo clic en las flechas derecha o izquierda según sea necesario.
 
    También puede realizar esta tarea desde la página [del](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)proveedor de datos de terceros.
 
 1. Haga clic **[!UICONTROL Save]** si ha realizado cambios.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Sincronización de ID con Media Optimizer](../companies/admin-amo-sync.md#concept_2B5537233DAA4860B3503B344F937D83)
 
