@@ -5,7 +5,7 @@ seo-title: Registro de auditoría
 title: Registro de auditoría
 uuid: null
 translation-type: tm+mt
-source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 ---
 
@@ -16,11 +16,13 @@ Se utiliza [!UICONTROL  Audit Logging] como primer lugar para depurar problemas 
 
 > [!NOTE]
 >
->[!UICONTROL Audit Logging] está actualmente en desarrollo y sujeto a cambios. Registre cualquier problema que encuentre en [!DNL JIRA] ([!DNL UI] equipo)
+> La funcionalidad y la documentación [!UICONTROL Audit Logging] están actualmente en desarrollo y sujetas a cambios. Registre cualquier problema que encuentre en [!DNL JIRA] ([!DNL UI] equipo).
 
 ![Vista Registro de auditoría](assets/audit-logging-img.png)
 
-En el selector desplegable Tipo **de** auditoría, elija entre:
+<!-- 
+
+In the **Audit Type** drop-down selector, choose between:
 
 * [!UICONTROL Partner]
 * [!UICONTROL User]
@@ -39,25 +41,27 @@ En el selector desplegable Tipo **de** auditoría, elija entre:
 * [!UICONTROL Model]
 * [!UICONTROL Segment Test Group]
 
-El ID **del** objeto es el ID del elemento que está investigando. Consulte la tabla siguiente para la cual el ID corresponde al ID de objeto en cada caso:
+The **Object ID** is the ID of the item you're researching. See the table below for which ID corresponds to the Object ID in each case:
 
-| Tipo de auditoría | ID del objeto |
+Audit Type | Object ID |
 ---------|----------|
-| [!UICONTROL Partner] | ID del socio: PID |
-| [!UICONTROL User] | ID de usuario |
-| [!UICONTROL Group] | B3 |
-| [!UICONTROL Datasource Summary] | ID de fuente de datos |
-| [!UICONTROL General Datasource] | ID de fuente de datos |
-| [!UICONTROL Merge Rule Datasource] | ID de fuente de datos |
-| [!UICONTROL Data Feed] | ID de fuente de datos |
-| [!UICONTROL Data Feed Subscription] | ID de fuente de datos |
-| [!UICONTROL Trait Summary] | SID (característica) |
-| [!UICONTROL Trait Rule] | SID (característica) |
-| [!UICONTROL Segment Summary] |  |
-| [!UICONTROL Destination Summary] |  |
-| [!UICONTROL Server-to-Server Destination] | N.D. |
-| [!UICONTROL Derived Signal] | N.D. |
-| [!UICONTROL Model] | N.D. |
-| [!UICONTROL Segment Test Group] | N.D. |
+ [!UICONTROL Partner] | Partner ID - PID |
+ [!UICONTROL User] | User ID |
+ [!UICONTROL Group] | B3 |
+ [!UICONTROL Datasource Summary] | Data Source ID |
+ [!UICONTROL General Datasource] | Data Source ID |
+ [!UICONTROL Merge Rule Datasource] | Data Source ID |
+ [!UICONTROL Data Feed] | Data Feed ID |
+ [!UICONTROL Data Feed Subscription] | Data Feed ID |
+ [!UICONTROL Trait Summary] | SID (trait) |
+ [!UICONTROL Trait Rule] | SID (trait) |
+ [!UICONTROL Segment Summary] |  |
+ [!UICONTROL Destination Summary] |  |
+ [!UICONTROL Server-to-Server Destination]| N/A |
+ [!UICONTROL Derived Signal] | N/A |
+ [!UICONTROL Model] | N/A |
+ [!UICONTROL Segment Test Group] | N/A |
 
-Utilice [!UICONTROL Start Date] ([!DNL UTC]) y [!UICONTROL End Date] ([!DNL UTC]) para reducir el intervalo de tiempo de los registros.
+ Use [!UICONTROL Start Date] ([!DNL UTC]) and [!UICONTROL End Date] ([!DNL UTC]) to narrow down the time interval of the logs.
+
+ -->
