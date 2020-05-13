@@ -1,29 +1,32 @@
 ---
 product: audience-manager
 audience: admin
-user-guide-title: Guía de administración de Audience Manager
+user-guide-title: Guía de administración del Administrador de Audiencias
 translation-type: tm+mt
-source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 6%
 
 ---
 
 
-# Guía de administración de Audience Manager {#admin-guide}
+# Guía de administración del Administrador de Audiencias {#admin-guide}
 
-+ [Inicio del administrador de Audience Manager](admin-home.md)
-+ [Inicio de sesión en el administrador de Audience Manager](admin-login.md)
++ [Página principal del administrador del administrador de Audiencias](admin-home.md)
++ [Inicio de sesión en el administrador del Administrador de Audiencias](admin-login.md)
 + [Cómo solicitar acceso de administrador funcional](admin-access.md)
 + Empresas{#companies}
    + [Empresas](companies/admin-companies-overview.md)
-   + [Crear un perfil de empresa](companies/admin-manage-company-profiles.md)
-   + [Administrar contenedores](companies/admin-manage-containers.md)
-   + [Opciones de Device Graph para empresas](companies/admin-device-graph-options.md)
+   + [Crear un Perfil de Compañía](companies/admin-manage-company-profiles.md)
+   + [Administrar Contenedores](companies/admin-manage-containers.md)
+   + [Opciones de Device Graph para Compañías](companies/admin-device-graph-options.md)
    + [Sincronización de ID con Media Optimizer](companies/admin-amo-sync.md)
    + [Administrar proveedores de datos personales](companies/admin-first-party-providers.md)
    + [Administrar proveedores de datos de terceros](companies/admin-third-party-providers.md)
-   + [Administrar destinos de empresa](companies/admin-manage-company-destinations.md)
-   + [Administrar límites de empresa](companies/admin-company-limits.md)
-   + [Administrar usuarios de la empresa](companies/admin-manage-company-users.md)
+   + [Administrar destinos de Compañía](companies/admin-manage-company-destinations.md)
+   + [Administrar límites de Compañía](companies/admin-company-limits.md)
+   + [Administrar usuarios de Compañía](companies/admin-manage-company-users.md)
    + [Filtrar datos de salida solo por usuarios activos](companies/outbound-active-user-filter.md)
 + Servidores{#servers}
    + [Información general sobre servidores](admin-servers/admin-servers.md)
@@ -46,9 +49,8 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
 + Clientes de OAuth2{#oath2-clients}
    + [Clientes de OAuth2](admin-oauth2/admin-oauth2-create-edit.md)
    + [Requisitos de API y recomendaciones](admin-oauth2/aam-admin-api-requirements.md)
-+ [Usuarios de integración](admin-manage-integration-users.md)
 + [Registro de auditoría](admin-audit-logging.md)
-+ [Mi perfil](admin-my-profile.md)
++ [Mi Perfil](admin-my-profile.md)
 + [Solución de problemas de configuración de destino](admin-destination-troubleshooting.md)
 + [Entorno beta](admin-beta-environment.md)
 + [Actualizaciones de documentación](admin-doc-updates.md)
