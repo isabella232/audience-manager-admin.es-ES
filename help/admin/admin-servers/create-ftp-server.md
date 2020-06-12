@@ -1,11 +1,14 @@
 ---
 description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor FTP o editar un servidor existente.
 seo-description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor FTP o editar un servidor existente.
-seo-title: ' Crear o editar un servidor FTP'
-title: ' Crear o editar un servidor FTP'
+seo-title: Crear o editar un servidor FTP
+title: Crear o editar un servidor FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +21,7 @@ Utilice la [!UICONTROL Servers] página de la herramienta de administración de 
 >
 >Debe tener la [!UICONTROL DEXADMIN] función para crear nuevos servidores o editar los existentes.
 
-1. Para crear un nuevo servidor, haga clic en **[!UICONTROL Servers]** &gt; **[!UICONTROL Create Server]**. Para editar un servidor existente, haga clic en el servidor que desee en la **[!UICONTROL Label]** columna.
+1. Para crear un nuevo servidor, haga clic en **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Para editar un servidor existente, haga clic en el servidor que desee en la **[!UICONTROL Label]** columna.
 1. Especifique la etiqueta que desee para este servidor.
 1. En la lista **[!UICONTROL Protocol]** desplegable, seleccione el protocolo que desee: **FTP**.
 
@@ -28,17 +31,17 @@ Utilice la [!UICONTROL Servers] página de la herramienta de administración de 
 
 1. Rellene los campos:
 
-   * **[!UICONTROL Type]** :: Seleccione el tipo de codificación que desee: **[!UICONTROL SFTP]** o **[!UICONTROL FTPs/TLS]**.
-   * **[!UICONTROL Domain]** :: Especifique el dominio (host) deseado para este servidor.
-   * **[!UICONTROL Port]** :: Especifique el puerto deseado para este servidor. Se muestra el puerto predeterminado para cada tipo de codificación. Si es necesario, puede cambiar el puerto predeterminado.
-   * **[!UICONTROL Remote Path]** :: Especifique la ruta de acceso remota que desee para este servidor. Si deja este campo vacío, Audience Manager coloca los archivos en el directorio predeterminado.
-   * **[!UICONTROL .tmp File Rename on Completion]** :: Active esta opción para cambiar el nombre del `.tmp` archivo una vez finalizado.
-   * **[!UICONTROL Filename Suffix]** :: Especifique el texto que desee anexar para transferir archivos.
-   * **[!UICONTROL Moved to When Finished]** :: Especifique la ruta de la ubicación en la que desea que se mueva el archivo de transferencia al finalizar.
-   * **[!UICONTROL Authentication]** :: Especifique el método de autenticación del servidor que desee: **[!UICONTROL Username/Password]** o **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL Type]::**Seleccione el tipo de codificación que desee:**[!UICONTROL SFTP]**o **[!UICONTROL FTPs/TLS]**.
+   * **[!UICONTROL Domain]::**Especifique el dominio (host) deseado para este servidor.
+   * **[!UICONTROL Port]::**Especifique el puerto deseado para este servidor. Se muestra el puerto predeterminado para cada tipo de codificación. Si es necesario, puede cambiar el puerto predeterminado.
+   * **[!UICONTROL Remote Path]::**Especifique la ruta de acceso remota que desee para este servidor. Si deja este campo vacío, Audience Manager coloca los archivos en el directorio predeterminado.
+   * **[!UICONTROL .tmp File Rename on Completion]::**Active esta opción para cambiar el nombre del`.tmp`archivo una vez finalizado.
+   * **[!UICONTROL Filename Suffix]::**Especifique el texto que desee anexar para transferir archivos.
+   * **[!UICONTROL Moved to When Finished]::**Especifique la ruta de la ubicación en la que desea que se mueva el archivo de transferencia al finalizar.
+   * **[!UICONTROL Authentication]::**Especifique el método de autenticación del servidor que desee:**[!UICONTROL Username/Password]**o **[!UICONTROL SSH Key]**.
    >[!NOTE]
    >
-   >Recuerde incluir nuestra salida en la lista blanca [!DNL FTP] [!DNL IP]: **52.44.29.204**.
+   >Recuerde agregar nuestra salida [!DNL FTP] [!DNL IP] a su lista de IP permitidas: **52.44.29.204**.
 
 1. Para **[!UICONTROL SSH Key]** autenticación:
    1. Genere el par de claves pública/privada desde cualquier [!DNL Linux] o [!DNL Mac] máquina.
