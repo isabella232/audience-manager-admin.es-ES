@@ -5,9 +5,9 @@ seo-title: Crear o editar un servidor FTP
 title: Crear o editar un servidor FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '423'
 ht-degree: 5%
 
 ---
@@ -44,6 +44,9 @@ Utilice la [!UICONTROL Servers] página de la herramienta de administración de 
    >Recuerde agregar nuestra salida [!DNL FTP] [!DNL IP] a su lista de IP permitidas: **52.44.29.204**.
 
 1. Para **[!UICONTROL SSH Key]** autenticación:
+   >[!NOTE]
+   >
+   >Al configurar la autenticación por clave SSH, asegúrese de generar siempre las claves pública y privada únicamente en formato OpenSSH.
    1. Genere el par de claves pública/privada desde cualquier [!DNL Linux] o [!DNL Mac] máquina.
    1. Proporcione la clave **** pública al cliente para que la actualice en su [!DNL SFTP] servidor. Deben incluir todo el texto de la clave pública en su servidor, incluyendo `-----BEGIN RSA PRIVATE KEY-----` y `-----END RSA PRIVATE KEY-----` . A cambio, deben proporcionar el nombre de usuario en el que instalan la clave.
    1. Actualice el campo de nombre de usuario con el proporcionado por el cliente y el campo de clave con la clave **privada**.
