@@ -1,6 +1,6 @@
 ---
-description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor FTP o editar un servidor existente.
-seo-description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor FTP o editar un servidor existente.
+description: Utilice la página Servidores de la herramienta Administración de Audience Manager para crear un nuevo servidor FTP o editar un servidor existente.
+seo-description: Utilice la página Servidores de la herramienta Administración de Audience Manager para crear un nuevo servidor FTP o editar un servidor existente.
 seo-title: Crear o editar un servidor FTP
 title: Crear o editar un servidor FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
@@ -39,6 +39,7 @@ Utilice la [!UICONTROL Servers] página de la herramienta de administración de 
    * **[!UICONTROL Filename Suffix]::**Especifique el texto que desee anexar para transferir archivos.
    * **[!UICONTROL Moved to When Finished]::**Especifique la ruta de la ubicación en la que desea que se mueva el archivo de transferencia al finalizar.
    * **[!UICONTROL Authentication]::**Especifique el método de autenticación del servidor que desee:**[!UICONTROL Username/Password]**o **[!UICONTROL SSH Key]**.
+
    >[!NOTE]
    >
    >Recuerde agregar nuestra salida [!DNL FTP] [!DNL IP] a su lista de IP permitidas: **52.44.29.204**.
