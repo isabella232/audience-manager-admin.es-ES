@@ -1,24 +1,27 @@
 ---
-description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor S3 o editar un servidor existente.
-seo-description: Utilice la página Servidores de la herramienta de administración de Audience Manager para crear un nuevo servidor S3 o editar un servidor existente.
+description: Utilice la página Servidores de la herramienta Administración de Audience Manager para crear un nuevo servidor S3 o editar un servidor existente.
+seo-description: Utilice la página Servidores de la herramienta Administración de Audience Manager para crear un nuevo servidor S3 o editar un servidor existente.
 seo-title: Crear o editar un servidor S3
 title: Crear o editar un servidor S3
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 9%
 
 ---
 
 
 # Crear o editar un servidor S3 {#create-or-edit-an-s-server}
 
-Utilice la página [!UICONTROL Servers] de la herramienta de administración de Audience Manager para crear un nuevo [!DNL S3] servidor o editar un servidor existente.
+Utilice la página de la herramienta de administración de Audience Manager para crear un nuevo [!UICONTROL Servers] [!DNL S3] servidor o editar un servidor existente.
 
 >[!NOTE]
 >
 >Debe tener la [!UICONTROL DEXADMIN] función para crear nuevos servidores o editar los existentes.
 
-1. Para crear un nuevo servidor, haga clic en **[!UICONTROL Servers]** &gt; **[!UICONTROL Create Server]**. Para editar un servidor existente, haga clic en el servidor que desee en la **[!UICONTROL Label]** columna.
+1. Para crear un nuevo servidor, haga clic en **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Para editar un servidor existente, haga clic en el servidor que desee en la **[!UICONTROL Label]** columna.
 1. Especifique la etiqueta que desee para este servidor.
 1. En la lista **[!UICONTROL Protocol]** desplegable, seleccione el protocolo que desee: **[!UICONTROL S3]**.
 
@@ -28,10 +31,10 @@ Utilice la página [!UICONTROL Servers] de la herramienta de administración de 
 
 1. Rellene los campos:
 
-   * **[!UICONTROL Account]** :: Especifique la cuenta que desee [!DNL S3] .
-   * **[!UICONTROL Bucket]** :: Especifique el [!DNL S3] bloque deseado.
-   * **[!UICONTROL Directory]** :: Especifique el [!DNL S3] directorio que desee.
-   * **[!UICONTROL Access Key]** :: Especifique la clave de [!DNL S3] acceso que desee.
-   * **[!UICONTROL Secret Key]** :: Especifique la clave [!DNL S3] secreta que desee.
+   * **[!UICONTROL Account]::**Especifique la cuenta que desee[!DNL S3].
+   * **[!UICONTROL Bucket]::**Especifique el[!DNL S3]bloque deseado.
+   * **[!UICONTROL Directory]::**Especifique el[!DNL S3]directorio que desee.
+   * **[!UICONTROL Access Key]::**Especifique la clave de[!DNL S3]acceso que desee.
+   * **[!UICONTROL Secret Key]::**Especifique la clave[!DNL S3]secreta que desee.
 
 1. Haga clic **[!UICONTROL Create]** si está creando un nuevo servidor o haga clic en **[!UICONTROL Update]** si está editando un servidor existente.
