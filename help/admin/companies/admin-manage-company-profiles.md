@@ -5,9 +5,9 @@ seo-title: Crear un perfil de compañía
 title: Crear un perfil de compañía
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
 translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '955'
 ht-degree: 4%
 
 ---
@@ -32,11 +32,11 @@ Utilice la página [!UICONTROL Companies] de la herramienta de administración d
 
       Por ejemplo, si su compañía tuviera el nombre [!DNL AcmeCorp], el subdominio sería [!DNL acmecorp].
 
-      Audience Manager utiliza el subdominio para el [!UICONTROL Data Collection Server]([!UICONTROL DCS]). En el ejemplo anterior, si la compañía está llena [!DNL URL] en [!UICONTROL DCS] sería [!DNL acmecorp.demdex.net].
+      Audience Manager utiliza el subdominio para el [!UICONTROL Data Collection Server] (DCS). En el ejemplo anterior, si la compañía está llena [!DNL URL] en [!UICONTROL DCS] sería [!DNL acmecorp.demdex.net].
 
    * **[!UICONTROL Lifecyle]**:: Especifique la etapa deseada para la compañía:
       * **[!UICONTROL Active]**:: Especifique que la compañía será un cliente Audience Manager activo. Una [!UICONTROL Active] cuenta significa un cliente de pago, no sólo por consultoría, sino también por el SKU del Audience Manager.
-      * **[!UICONTROL Demo]**:: Especifique que la compañía será solo para fines de demostración. Los datos de Sistema de informes se falsificarán automáticamente.
+      * **[!UICONTROL Demo]**:: Especifique que la compañía será solo para fines de demostración. Los datos de sistema de informes se falsificarán automáticamente.
       * **[!UICONTROL Prospect]**:: Especifique que la compañía es un cliente Audience Manager potencial, como una compañía que se le otorga de forma gratuita [!DNL POC] o una configuración de cuenta para una demostración de ventas.
       * **[!UICONTROL Test]**:: Especifique que la compañía será únicamente para pruebas internas.
    * **[!UICONTROL Account Types]**:: Especifique el conjunto completo de tipos de cuenta para esta compañía. Ningún tipo de cuenta se excluye mutuamente con ningún otro tipo.
@@ -78,12 +78,12 @@ Edite el perfil de una compañía, incluido su nombre, descripción, subdominio,
 
       Por ejemplo, si su compañía tuviera el nombre [!DNL AcmeCorp], el subdominio sería [!DNL acmecorp].
 
-      Audience Manager utiliza el subdominio para el [!UICONTROL Data Collection Server] ([!UICONTROL DCS]). En el ejemplo anterior, si la compañía está llena [!DNL URL] en [!UICONTROL DCS] sería [!DNL acmecorp.demdex.net].
+      Audience Manager utiliza el subdominio para el [!UICONTROL Data Collection Server] (DCS). En el ejemplo anterior, si la compañía está llena [!DNL URL] en [!UICONTROL DCS] sería [!DNL acmecorp.demdex.net].
 
-   * **[!UICONTROL imsOrgld]**:: ([!UICONTROL Identity Management System Organization ID]) Este ID le permite conectar su compañía con Adobe Experience Cloud.
+   * **[!UICONTROL imsOrgld]**:: ([!UICONTROL Identity Management System Organization ID]) Este ID le permite conectar su compañía con el Adobe Experience Cloud.
    * **[!UICONTROL Lifecyle]**:: Especifique la etapa deseada para la compañía:
       * **[!UICONTROL Active]**:: Especifique que la compañía será un cliente Audience Manager activo. Una cuenta activa significa un cliente de pago, no sólo por consultoría, sino también por SKU de Audience Manager.
-      * **[!UICONTROL Demo]**:: Especifique que la compañía será solo para fines de demostración. Los datos de Sistema de informes se falsificarán automáticamente.
+      * **[!UICONTROL Demo]**:: Especifique que la compañía será solo para fines de demostración. Los datos de sistema de informes se falsificarán automáticamente.
       * **[!UICONTROL Prospect]**:: Especifique que la compañía es un cliente Audience Manager potencial, como una compañía que se le otorga de forma gratuita [!DNL POC] o una configuración de cuenta para una demostración de ventas.
       * **[!UICONTROL Test]**:: Especifique que la compañía será únicamente para pruebas internas.
    * **[!UICONTROL Account Types]**:: Especifique el conjunto completo de tipos de cuenta para esta compañía. Ningún tipo de cuenta se excluye mutuamente con ningún otro tipo.
