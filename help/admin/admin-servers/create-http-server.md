@@ -5,7 +5,7 @@ seo-title: Crear o editar un servidor HTTP
 title: Crear o editar un servidor HTTP
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 7%
@@ -26,13 +26,13 @@ Utilice la [!UICONTROL Servers] página de la herramienta de administración de 
 1. En la lista **[!UICONTROL Protocol]** desplegable, seleccione el protocolo que desee: [!DNL HTTP].
 1. Rellene los campos:
 
-   * **[!UICONTROL Domain]::**Especifique el dominio (host) deseado para este servidor.
-   * **[!UICONTROL Port]::**Especifique el puerto deseado para este servidor. Se muestra el puerto predeterminado para cada tipo de codificación. Si es necesario, puede cambiar el puerto predeterminado
-   * **[!UICONTROL Maximum Users Per Request]::**Especifique el número máximo de usuarios por solicitud permitida para este servidor.
-   * **[!UICONTROL URL Prefix]::**Especifique el[!DNL URL]prefijo que se usará para este servidor.
-   * **[!UICONTROL Authentication URL]::**Especifique el[!UICONTROL Authentication URL]para este`HTTP`servidor.
-   * **[!UICONTROL Authentication]::**Especifique el método de autenticación deseado:**[!UICONTROL None]**,**[!UICONTROL Username/Password]**, o **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]::**El nombre del[!DNL HTTP]encabezado, proporcionado por el cliente, que contiene la clave de[!DNL HTTP]firma. El valor predeterminado es[!UICONTROL X-Signature], como se muestra en el ejemplo siguiente:
+   * **[!UICONTROL Domain]::** Especifique el dominio (host) deseado para este servidor.
+   * **[!UICONTROL Port]::** Especifique el puerto deseado para este servidor. Se muestra el puerto predeterminado para cada tipo de codificación. Si es necesario, puede cambiar el puerto predeterminado
+   * **[!UICONTROL Maximum Users Per Request]::** Especifique el número máximo de usuarios por solicitud permitida para este servidor.
+   * **[!UICONTROL URL Prefix]::** Especifique el [!DNL URL] prefijo que se usará para este servidor.
+   * **[!UICONTROL Authentication URL]::** Especifique el [!UICONTROL Authentication URL] para este `HTTP` servidor.
+   * **[!UICONTROL Authentication]::** Especifique el método de autenticación deseado: **[!UICONTROL None]**, **[!UICONTROL Username/Password]**, o **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]::** El nombre del [!DNL HTTP] encabezado, proporcionado por el cliente, que contiene la clave de [!DNL HTTP] firma. El valor predeterminado es [!UICONTROL X-Signature], como se muestra en el ejemplo siguiente:
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -45,9 +45,9 @@ Utilice la [!UICONTROL Servers] página de la herramienta de administración de 
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]::**Clave utilizada para firmar la[!DNL HTTP]solicitud, proporcionada por el cliente.
-   * **[!UICONTROL Show Signature Key]::**Alterne si desea o no mostrar la firma en el explorador.
-   * **[!UICONTROL HTTP Signature Encryption Method]::**Especifique el método que usamos para cifrar la firma. Utilícelo[!UICONTROL SHA1]a menos que el cliente prefiera lo contrario.
+   * **[!UICONTROL HTTP Signature Key]::** Clave utilizada para firmar la [!DNL HTTP] solicitud, proporcionada por el cliente.
+   * **[!UICONTROL Show Signature Key]::** Alterne si desea o no mostrar la firma en el explorador.
+   * **[!UICONTROL HTTP Signature Encryption Method]::** Especifique el método que usamos para cifrar la firma. Utilícelo [!UICONTROL SHA1] a menos que el cliente prefiera lo contrario.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Utilice la [!UICONTROL Servers] página de la herramienta de administración de 
    | [!UICONTROL URL Prefix] | [!UICONTROL /segments/aam] |
    | [!UICONTROL Authentication URL] | [!UICONTROL api.partner.com/oauth2/token] |
    | [!UICONTROL Authentication] | [!UICONTROL Username/Password] |
-   | [!UICONTROL Username] | [!UICONTROL *Autorización *] |
+   | [!UICONTROL Username] | [!UICONTROL *Autorización*] |
    | [!UICONTROL Password] | your_password_here |
    | [!UICONTROL HTTP Signature Header] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
