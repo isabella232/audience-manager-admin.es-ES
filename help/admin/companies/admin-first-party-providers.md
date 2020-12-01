@@ -19,9 +19,9 @@ Vista o edición de contenedores y asignaciones para proveedores de datos de ori
 
 <!-- t_first_party_providers.xml -->
 
-1. Haga clic en **[!UICONTROL Companies]**, luego localice y haga clic en la compañía deseada para mostrar su [!UICONTROL Profile] página. Use el [!UICONTROL Search] cuadro o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
+1. Haga clic en **[!UICONTROL Companies]**, luego localice y haga clic en la compañía deseada para mostrar su [!UICONTROL Profile] página. Use el cuadro [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
 
-1. Click the **[!UICONTROL First Party Data Providers]** tab.
+1. Haga clic en la ficha **[!UICONTROL First Party Data Providers]**.
 
    ![](assets/first_party_providers.png)
 
@@ -29,5 +29,5 @@ Vista o edición de contenedores y asignaciones para proveedores de datos de ori
 
    ![Resultado del paso](assets/first_party_providers_edit.png)
 
-1. Mueva contenedores de las **[!UICONTROL Available Containers]** listas y **[!UICONTROL Selected Containers for This Data Provider]** seleccionando los contenedores deseados y haciendo clic en las flechas derecha o izquierda según sea necesario.
-1. Haga clic **[!UICONTROL Save]** si ha realizado cambios.
+1. Mueva contenedores de las listas **[!UICONTROL Available Containers]** y **[!UICONTROL Selected Containers for This Data Provider]** seleccionando los contenedores deseados y haciendo clic en las flechas derecha o izquierda según sea necesario.
+1. Haga clic en **[!UICONTROL Save]** si ha realizado cambios.
