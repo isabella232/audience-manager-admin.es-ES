@@ -19,8 +19,8 @@ Vista o edición de contenedores y asignaciones para proveedores de datos de ter
 
 1. Haga clic en **[!UICONTROL Companies]**, luego localice y haga clic en la compañía deseada para mostrar su [!UICONTROL Profile] página.
 
-   Use el [!UICONTROL Search] cuadro o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
-1. Click the **[!UICONTROL Third Party Data Providers]** tab.
+   Use el cuadro [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
+1. Haga clic en la ficha **[!UICONTROL Third Party Data Providers]**.
 
    ![](assets/third_party_providers.png)
 
@@ -28,14 +28,14 @@ Vista o edición de contenedores y asignaciones para proveedores de datos de ter
 
    ![Resultado del paso](assets/third_party_providers_edit.png)
 
-1. Seleccione **[!UICONTROL Enable Sharing]** para activar las siguientes opciones:
+1. Seleccione **[!UICONTROL Enable Sharing]** para habilitar las siguientes opciones:
 
    * **Superposición de nivel de socio:**
-   * **Uso del modelo habilitado:** Permite que esta compañía utilice este proveedor de datos al crear modelos algorítmicos.
+   * **Uso del modelo activado:** permite que esta compañía utilice este proveedor de datos al crear modelos algorítmicos.
 
    Cuando habilita el uso compartido, obtiene acceso a las características de este proveedor de datos.
 
 1. (Condicional) Si el contenedor está habilitado para este proveedor, puede seleccionar contenedores para este proveedor de datos moviendo los contenedores deseados de la lista disponible a la lista seleccionada.
 
-   También puede realizar esta tarea desde la página [Contenedores](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) .
-1. Haga clic **[!UICONTROL Save]** si ha realizado cambios.
+   También puede realizar esta tarea desde la página [Contenedores](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967).
+1. Haga clic en **[!UICONTROL Save]** si ha realizado cambios.
