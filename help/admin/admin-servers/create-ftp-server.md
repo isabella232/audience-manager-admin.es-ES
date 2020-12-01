@@ -15,40 +15,40 @@ ht-degree: 5%
 
 # Crear o editar un servidor FTP {#create-or-edit-an-ftp-server}
 
-Utilice la [!UICONTROL Servers] página de la herramienta de administración de Audience Manager para crear un nuevo servidor FTP o editar un servidor existente.
+Utilice la página [!UICONTROL Servers] de la herramienta de administración de Audience Manager para crear un nuevo servidor FTP o editar un servidor existente.
 
 >[!NOTE]
 >
->Debe tener la [!UICONTROL DEXADMIN] función para crear nuevos servidores o editar los existentes.
+>Debe tener la función [!UICONTROL DEXADMIN] para crear nuevos servidores o editar los existentes.
 
-1. Para crear un nuevo servidor, haga clic en **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Para editar un servidor existente, haga clic en el servidor que desee en la **[!UICONTROL Label]** columna.
+1. Para crear un nuevo servidor, haga clic en **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Para editar un servidor existente, haga clic en el servidor que desee en la columna **[!UICONTROL Label]**.
 1. Especifique la etiqueta que desee para este servidor.
-1. En la lista **[!UICONTROL Protocol]** desplegable, seleccione el protocolo que desee: **FTP**.
+1. En la lista desplegable **[!UICONTROL Protocol]**, seleccione el protocolo deseado: **FTP**.
 
    >[!NOTE]
    >
-   >Se recomienda utilizar [!DNL Amazon S3] como método para obtener archivos de los socios y enviarlos. [!DNL Amazon S3] proporciona una interfaz de servicios Web sencilla que puede utilizarse para almacenar y recuperar cualquier cantidad de datos, en cualquier momento y desde cualquier lugar de la web. Para obtener más información, consulte [Acerca de Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) en la Guía *del usuario de* Audience Manager.
+   >Se recomienda utilizar [!DNL Amazon S3] como método para obtener archivos de los socios y enviarlos. [!DNL Amazon S3] proporciona una interfaz de servicios Web sencilla que puede utilizarse para almacenar y recuperar cualquier cantidad de datos, en cualquier momento y desde cualquier lugar de la web. Para obtener más información, consulte [Acerca de Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) en la *Guía del usuario Audience Manager*.
 
 1. Rellene los campos:
 
-   * **[!UICONTROL Type]::**Seleccione el tipo de codificación que desee:**[!UICONTROL SFTP]**o **[!UICONTROL FTPs/TLS]**.
-   * **[!UICONTROL Domain]::**Especifique el dominio (host) deseado para este servidor.
-   * **[!UICONTROL Port]::**Especifique el puerto deseado para este servidor. Se muestra el puerto predeterminado para cada tipo de codificación. Si es necesario, puede cambiar el puerto predeterminado.
-   * **[!UICONTROL Remote Path]::**Especifique la ruta de acceso remota que desee para este servidor. Si deja este campo vacío, Audience Manager coloca los archivos en el directorio predeterminado.
-   * **[!UICONTROL .tmp File Rename on Completion]::**Active esta opción para cambiar el nombre del`.tmp`archivo una vez finalizado.
-   * **[!UICONTROL Filename Suffix]::**Especifique el texto que desee anexar para transferir archivos.
-   * **[!UICONTROL Moved to When Finished]::**Especifique la ruta de la ubicación en la que desea que se mueva el archivo de transferencia al finalizar.
-   * **[!UICONTROL Authentication]::**Especifique el método de autenticación del servidor que desee:**[!UICONTROL Username/Password]**o **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL Type]:** Seleccione el tipo de codificación que desee:  **[!UICONTROL SFTP]** o  **[!UICONTROL FTPs/TLS]**.
+   * **[!UICONTROL Domain]:** Especifique el dominio (host) deseado para este servidor.
+   * **[!UICONTROL Port]:** Especifique el puerto deseado para este servidor. Se muestra el puerto predeterminado para cada tipo de codificación. Si es necesario, puede cambiar el puerto predeterminado.
+   * **[!UICONTROL Remote Path]:** Especifique la ruta de acceso remota que desee para este servidor. Si deja este campo vacío, Audience Manager coloca los archivos en el directorio predeterminado.
+   * **[!UICONTROL .tmp File Rename on Completion]:** Active esta opción para cambiar el nombre del  `.tmp` archivo una vez finalizado.
+   * **[!UICONTROL Filename Suffix]:** Especifique el texto que desee anexar para transferir archivos.
+   * **[!UICONTROL Moved to When Finished]:** Especifique la ruta a la ubicación donde desea que se mueva el archivo de transferencia al completarse.
+   * **[!UICONTROL Authentication]:** Especifique el método de autenticación del servidor que desee:  **[!UICONTROL Username/Password]** o  **[!UICONTROL SSH Key]**.
 
    >[!NOTE]
    >
    >Recuerde agregar nuestra salida [!DNL FTP] [!DNL IP] a su lista de IP permitidas: **52.44.29.204**.
 
-1. Para **[!UICONTROL SSH Key]** autenticación:
+1. Para la autenticación **[!UICONTROL SSH Key]**:
    >[!NOTE]
    >
    >Al configurar la autenticación por clave SSH, asegúrese de generar siempre las claves pública y privada únicamente en formato OpenSSH.
-   1. Genere el par de claves pública/privada desde cualquier [!DNL Linux] o [!DNL Mac] máquina.
-   1. Proporcione la clave **** pública al cliente para que la actualice en su [!DNL SFTP] servidor. Deben incluir todo el texto de la clave pública en su servidor, incluyendo `-----BEGIN RSA PRIVATE KEY-----` y `-----END RSA PRIVATE KEY-----` . A cambio, deben proporcionar el nombre de usuario en el que instalan la clave.
-   1. Actualice el campo de nombre de usuario con el proporcionado por el cliente y el campo de clave con la clave **privada**.
-1. Haga clic **[!UICONTROL Create]** si está creando un nuevo servidor o haga clic en **[!UICONTROL Update]** si está editando un servidor existente.
+   1. Genere el par de clave pública/privada desde cualquier equipo [!DNL Linux] o [!DNL Mac].
+   1. Proporcione la **clave pública** al cliente para que la actualice en su servidor [!DNL SFTP]. Deben incluir todo el texto de la clave pública de su servidor, incluidos `-----BEGIN RSA PRIVATE KEY-----` y `-----END RSA PRIVATE KEY-----`. A cambio, deben proporcionar el nombre de usuario en el que instalan la clave.
+   1. Actualice el campo de nombre de usuario con el proporcionado por el cliente y el campo de clave con la **clave privada**.
+1. Haga clic en **[!UICONTROL Create]** si está creando un nuevo servidor o haga clic en **[!UICONTROL Update]** si está editando un servidor existente.
