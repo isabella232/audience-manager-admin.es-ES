@@ -24,38 +24,38 @@ El entorno beta es para probar las implementaciones de Audience Manager. Los cam
 
 | Servicio | URL/nombre de host | Pasos para aprovisionar |
 |--- |--- |--- |
-| S3 |  | Consulte [Provisión de cubos](admin-beta-environment.md#provision-s3-buckets)de Amazon S3. |
-| DCS | https&amp;dos puntos;//dcs-beta.demdex.net/... | No necesitamos pasos adicionales de nuestro lado. Consulte [Acceso al DCS en el Entorno](admin-beta-environment.md#access-dcs-beta-environment)Beta. |
+| S3 |  | Consulte [Provisión de cubos Amazon S3](admin-beta-environment.md#provision-s3-buckets). |
+| DCS | https&amp;dos puntos;//dcs-beta.demdex.net/... | No necesitamos pasos adicionales de nuestro lado. Consulte [Acceso al DCS en el Entorno Beta](admin-beta-environment.md#access-dcs-beta-environment). |
 | IU | https&amp;dos puntos;//bank-beta.demdex.com | Los datos se copian de la producción al entorno beta mensualmente. Las credenciales de producción son válidas para la versión beta. |
 | API | https&amp;dos puntos;//api-beta.demdex.com/... | Los datos se copian de la producción al entorno beta mensualmente. Las credenciales de producción son válidas para la versión beta. |
 
-## Provisión de cubos de Amazon S3 {#provision-s3-buckets}
+## Aprovisionamiento de cubos Amazon S3 {#provision-s3-buckets}
 
 >[!NOTE]
 >
->Nos estamos alejando del uso [!DNL FTP/SFTP]. Además, tenga en cuenta que las transferencias de datos salientes no funcionan para el entorno beta.
+>Nos estamos alejando del uso de [!DNL FTP/SFTP]. Además, tenga en cuenta que las transferencias de datos salientes no funcionan para el entorno beta.
 
-Para aprovisionar [!DNL S3] bloques para datos de entrada:
+Para aprovisionar bloques [!DNL S3] para datos de entrada:
 
-1. Utilice la función de ayuda de [**SKMS Request TechOps **](https://skms.adobe.com/).
-1. Vaya a **[!UICONTROL Request TechOps Help]** en la barra de navegación izquierda.
+1. Utilice la función [**Ayuda de TechOps de solicitud SKMS**](https://skms.adobe.com/).
+1. Vaya a **[!UICONTROL Request TechOps Help]** en el carril de navegación izquierdo.
 1. En **[!UICONTROL Request Search]**, escriba Audience Manager en el campo de búsqueda.
-1. Desplácese hacia abajo en los resultados de búsqueda y haga clic en **Audience Manager - S3 Entrante / Aprovisionamiento** de cuentas de salida.
-1. Rellene los campos de la ventana de aprovisionamiento y especifique el entorno **de** Simulador para pruebas en el **[!UICONTROL Environment]** campo.
+1. Desplácese hacia abajo en los resultados de la búsqueda y haga clic en **Audience Manager - S3 Entrante / Aprovisionamiento de cuentas de salida**.
+1. Rellene los campos de la ventana de aprovisionamiento y especifique **entorno de Simulador para pruebas** en el campo **[!UICONTROL Environment]**.
 
 >[!NOTE]
 >
 >Desalentamos el uso de [!DNL FTP/SFTP] y alentamos el uso de [!UICONTROL Amazon S3]. Las razones por las que alentamos el uso de [!UICONTROL Amazon S3] se enumeran en [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html).
 
-## Acceso al DCS en el Entorno Beta {#access-dcs-beta-environment}
+## Acceda al DCS en el Entorno Beta {#access-dcs-beta-environment}
 
-Para acceder al [!UICONTROL DCS] en el entorno beta:
+Para acceder a [!UICONTROL DCS] en el entorno beta:
 
-1. Realice una [!UICONTROL DCS] llamada mediante el [!DNL curl] comando [](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
+1. Realice una llamada [!UICONTROL DCS] mediante el comando [!DNL curl] [](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] es una herramienta para transferir datos desde o hacia un servidor, utilizando uno de los muchos protocolos admitidos.
 
    Por ejemplo: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Compruebe que la versión beta haya proporcionado su solicitud [!UICONTROL DCS] buscando &quot;[!DNL sandbox]&quot; en el encabezado de la [!UICONTROL DCS] respuesta.
+1. Compruebe que la solicitud la haya enviado la versión beta [!UICONTROL DCS] buscando &quot;[!DNL sandbox]&quot; en el encabezado de respuesta [!UICONTROL DCS].
 
    Por ejemplo:
 
