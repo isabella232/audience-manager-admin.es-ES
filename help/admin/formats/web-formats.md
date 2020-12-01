@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Macros de formato HTTP {#http-format-macros}
 
-Lista las macros que puede utilizar para crear archivos [!DNL HTTP] de datos. [!DNL HTTP] envía datos en un [!DNL JSON] formato.
+Lista las macros que puede utilizar para crear archivos de datos [!DNL HTTP]. [!DNL HTTP] envía datos en un  [!DNL JSON] formato.
 
-Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) HTTP para ver una lista y ejemplos de algunas combinaciones de macros que se utilizan con frecuencia.
+Consulte los [Ejemplos de macros de formato HTTP](../formats/web-format-examples.md) para obtener una lista y ejemplos de algunas combinaciones de macros más utilizadas.
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -31,12 +31,12 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> ID </span> del Audience Manager. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager  </span> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>ID de usuario único del socio de datos. Esta macro devuelve el ID que ha asignado a un usuario si su ID ya se ha sincronizado con un ID de dispositivo <span class="keyword"> Audience Manager </span> . </p> </td> 
+   <td colname="col3"> <p>ID de usuario único del socio de datos. Esta macro devuelve el ID que ha asignado a un usuario si su ID ya se ha sincronizado con un <span class="keyword"> ID de dispositivo </span> Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -51,7 +51,7 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Marca de hora Unix UTC. Una marca de tiempo interna representa la hora en que se notificó a AAM que publicara el destino <span class="wintitle"> S2S </span> en nuestros socios. </p> </td> 
+   <td colname="col3"> <p>Marca de hora Unix UTC. Una marca de tiempo interna representa la hora en la que se notificó a AAM la publicación del destino <span class="wintitle"> S2S </span> a nuestros socios. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -91,7 +91,7 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Región DCS <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager </a> en la que se originó la actividad.</p> </td> 
+   <td colname="col3"> <p>La <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> región DCS Audience Manager </a> donde se originó la actividad.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -101,7 +101,7 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENTS</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>lista de segmentos para los que un usuario ya no cumple los requisitos. También puede devolver campos de segmento específicos que incluyen: </p> <p> 
+   <td colname="col3"> <p>Lista de segmentos para los que un usuario ya no cumple los requisitos. También puede devolver campos de segmento específicos que incluyen: </p> <p> 
      <ul id="ul_29B83093A7624A908F0C06F2A248981A"> 
       <li id="li_57A60A54F5D44E38ACB4E2648095F246"> <code>traitAlias</code> </li> 
       <li id="li_4079F646493F40DBA0CE75D662A69454"> <code>legacySegmentId (formerly segmentId)</code> </li> 
@@ -113,12 +113,12 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TIME_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> lista de las últimas realizaciones para segmentos para los que el usuario ya no cumple los requisitos. </td> 
+   <td colname="col3"> Lista de las últimas realizaciones para segmentos para los que el usuario ya no cumple los requisitos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TRAITALIAS_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>lista de nombres con alias de segmentos para los que un usuario ya no cumple los requisitos. </p> </td> 
+   <td colname="col3"> <p>Lista de nombres con alias de segmentos para los que un usuario ya no cumple los requisitos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
@@ -128,7 +128,7 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>SEGMENTS</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>lista de segmentos para los que un usuario cumple los requisitos. También puede devolver campos de segmento específicos que incluyen: </p> <p> 
+   <td colname="col3"> <p>Lista de segmentos para los que un usuario cumple los requisitos. También puede devolver campos de segmento específicos que incluyen: </p> <p> 
      <ul id="ul_9209683A8E0A4B8081E5EFA4602F743F"> 
       <li id="li_D796526C1C9E45BEA891D619539888C4"> <code>traitAlias</code> </li> 
       <li id="li_BF12E010E1AD432C84605B9817F209DD"> <code>legacySegmentId (formerly segmentId)</code> </li> 
@@ -150,7 +150,7 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>TRAITALIAS_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>lista de nombres con alias para un segmento en particular. </p> </td> 
+   <td colname="col3"> <p>Lista de nombres con alias para un segmento en particular. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>USER_AGENT</code> </p> </td> 
@@ -160,7 +160,7 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>lista de <span class="keyword"> ID de </span> usuario de Audience Manager. También puede devolver campos específicos que incluyan lo siguiente: </p> 
+   <td colname="col3"> <p>Una lista de <span class="keyword"> ID de usuario </span> Audience Manager. También puede devolver campos específicos que incluyan lo siguiente: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -174,7 +174,8 @@ Consulte los ejemplos [de macros de formato](../formats/web-format-examples.md) 
      <li><code>user.regionIds</code></li> 
     </ul> <p>Especifique estos campos como se muestra en este ejemplo: </p> <p> 
      <codeblock>
-       "AAM_UUID": "&lt;user.aamUuid&gt;" "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
      </codeblock> </p> <p>Consulte también <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Ejemplos de macros de formato HTTP </a> para ver un ejemplo completo. </p> </td> 
   </tr>
  </tbody>
