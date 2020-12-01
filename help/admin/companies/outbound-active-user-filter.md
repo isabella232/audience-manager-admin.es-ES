@@ -19,15 +19,15 @@ Siga estas instrucciones para generar un archivo de sincronización completo que
 
 >[!NOTE]
 >
->No es necesario ver un visitante en un sitio de clientes seleccionado o en su tráfico de publicidad para calificar como &quot;activo&quot;. Cualquier cliente o [!DNL Audience Manager] socio puede considerarlos como &quot;activos&quot;.
+>No es necesario ver un visitante en un sitio de clientes seleccionado o en su tráfico de publicidad para calificar como &quot;activo&quot;. Pueden ser vistos por cualquier [!DNL Audience Manager] cliente o socio para calificar como &quot;activo&quot;.
 
 Para filtrar solo por usuarios activos:
 
 1. Haga clic **[!UICONTROL Companies]**.
 1. Seleccione la compañía con la que desee trabajar y haga clic en **[!UICONTROL Destinations]**.
-1. En la [!UICONTROL Batch Data] sección , establezca las siguientes opciones:
+1. En la sección [!UICONTROL Batch Data], establezca las siguientes opciones:
 
-   * **[!UICONTROL Sync Type]**:: Seleccione **[!UICONTROL Customer]** o **[!UICONTROL Platform]**.
+   * **[!UICONTROL Sync Type]**:: Seleccione  **[!UICONTROL Customer]** o  **[!UICONTROL Platform]**.
    * **[!UICONTROL Sync Type Lookback Period]**:: Este intervalo de tiempo define el intervalo del archivo de datos. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
    * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. Recuerde que este filtro se aplica únicamente a los archivos de sincronización completa.
    * **[!UICONTROL Full Sync Scheduled Run]**:: Esto determina la frecuencia con la que desea recibir este archivo. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** o **[!UICONTROL Never]** (para deshabilitar).
