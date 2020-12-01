@@ -19,5 +19,5 @@ Inicie sesión en la herramienta de administración de Adobe Audience Manager co
 
 <!-- t_login.xml -->
 
-1. Acceda a la herramienta Audience Manager [!DNL Admin] navegando a lo siguiente [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/).
-1. Seleccione el método de verificación que prefiera en el cuadro desplegable y haga clic en **[!UICONTROL Verify]**.
+1. Acceda a la herramienta Audience Manager [!DNL Admin] navegando a la siguiente [!DNL URL]: [https://admin.demdex.com/](https://admin.demdex.com/).
+1. Seleccione su método de verificación preferido en el cuadro desplegable y haga clic en **[!UICONTROL Verify]**.
