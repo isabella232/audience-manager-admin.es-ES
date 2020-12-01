@@ -19,17 +19,17 @@ Administre los siguientes límites para la compañía: modelos algorítmicos, se
 
 <!-- t_company_limits.xml -->
 
-1. Haga clic en **[!UICONTROL Companies]**, luego localice y haga clic en la compañía deseada para mostrar su [!UICONTROL Profile] página. Use el [!UICONTROL Search] cuadro o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
-1. Click the **[!UICONTROL Limits]** tab.
+1. Haga clic en **[!UICONTROL Companies]**, luego localice y haga clic en la compañía deseada para mostrar su [!UICONTROL Profile] página. Use el cuadro [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
+1. Haga clic en la ficha **[!UICONTROL Limits]**.
 1. Rellene los campos:
 
    >[!NOTE]
    >
-   >Si alguno de los campos está vacío, el valor predeterminado es actualmente ilimitado. Todos los campos son independientes. Por ejemplo: en la [!UICONTROL Trait Limits] sección, puede especificar 100 para [!UICONTROL Total Traits] y 100 para los demás tipos de rasgos. La suma de [!UICONTROL Max Number of Algorithmic Traits], [!UICONTROL Max Number or Rule Based Traits], y [!UICONTROL Max Number of Onboarded Traits] no es igual a la [!UICONTROL Total Number].
+   >Si alguno de los campos está vacío, el valor predeterminado es actualmente ilimitado. Todos los campos son independientes. Por ejemplo: en la sección [!UICONTROL Trait Limits], puede especificar 100 para [!UICONTROL Total Traits] y 100 para los demás tipos de rasgos. La suma de [!UICONTROL Max Number of Algorithmic Traits], [!UICONTROL Max Number or Rule Based Traits] y [!UICONTROL Max Number of Onboarded Traits] no es igual a [!UICONTROL Total Number].
 
-   * **[!UICONTROL Trait Folder Limits]**:: Especifique los [!UICONTROL Trait Folder] límites de esta compañía:
-      * **[!UICONTROL Max number of Trait Folders]**:: Especifique el número máximo de [!UICONTROL Trait Folders] esta compañía.
-      * **[!UICONTROL Max depth of Trait Folders]**:: Especifique la profundidad máxima que puede tener la estructura [!UICONTROL Trait Folder] de la compañía.
+   * **[!UICONTROL Trait Folder Limits]**:: Especifique los  [!UICONTROL Trait Folder] límites de esta compañía:
+      * **[!UICONTROL Max number of Trait Folders]**:: Especifique el número máximo de  [!UICONTROL Trait Folders] esta compañía.
+      * **[!UICONTROL Max depth of Trait Folders]**:: Especifique la profundidad máxima que puede tener la  [!UICONTROL Trait Folder] estructura de la compañía.
    * **[!UICONTROL AlgoModel Limits]**:: Especifique los límites algorítmicos para esta compañía:
       * **[!UICONTROL Total Number]**:: Especifique el número total de características algorítmicas que puede tener esta compañía.
    * **[!UICONTROL Segment Limits]**:: Especifique los límites de segmento para esta compañía:
@@ -37,7 +37,7 @@ Administre los siguientes límites para la compañía: modelos algorítmicos, se
    * **[!UICONTROL Destinations Limits]**:: Especifique los límites de destino para esta compañía:
       * **[!UICONTROL Total Number]**:: Especifique el número total de destinos que puede tener esta compañía.
       * **[!UICONTROL Max Number of URL Destinations]**:: Especifique el número máximo de destinos de URL que puede tener esta compañía.
-      * **[!UICONTROL Max Number of AdServer Destinations]**:: Especifique el número máximo de [!UICONTROL AdServer] destinos que puede tener esta compañía.
+      * **[!UICONTROL Max Number of AdServer Destinations]**:: Especifique el número máximo de  [!UICONTROL AdServer] destinos que puede tener esta compañía.
       * **[!UICONTROL Max Number of S2S Destinations]**:: Especifique el número máximo de destinos de S2S que puede tener esta compañía.
    * **[!UICONTROL Trait Limits]**:: Especifique los límites de características para esta compañía:
       * **[!UICONTROL Total Number]**:: Especifique el número total de rasgos que puede tener esta compañía.
