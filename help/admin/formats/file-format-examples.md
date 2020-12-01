@@ -15,15 +15,15 @@ ht-degree: 13%
 
 # Ejemplos de macros de formato de archivo {#file-format-macro-examples}
 
-Ejemplos de cómo se utilizan las macros para crear plantillas de archivo salientes [!DNL FTP] .
+Ejemplos de cómo se utilizan las macros para crear plantillas de archivo [!DNL FTP] salientes.
 
 >[!NOTE]
 >
->En las tablas, el tipo de **negrita** identifica cada macro con su salida relacionada. En los ejemplos de formato, se han agregado los símbolos &lt; > para ayudar a separar visualmente cada macro.
+>En las tablas, el tipo **negrita** identifica cada macro con su salida relacionada. En los ejemplos de formato, se han agregado los símbolos &lt; > para ayudar a separar visualmente cada macro.
 
 ## Macros comunes {#common-macros}
 
-Estas macros se pueden utilizar en cualquier campo de formato. Consulte las macros [Formato](../formats/file-formats.md) de archivo para obtener una lista y definiciones completas.
+Estas macros se pueden utilizar en cualquier campo de formato. Consulte las [Macros de formato de archivo](../formats/file-formats.md) para obtener una lista y definiciones completas.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -71,7 +71,7 @@ Estas macros se pueden utilizar en cualquier campo de formato. Consulte las macr
 
 ## Macros de campo de encabezado {#header-field-macros}
 
-Macros utilizadas solo en campos de encabezado. Consulte las macros [Formato](../formats/file-formats.md) de archivo para obtener una lista y definiciones completas.
+Macros utilizadas solo en campos de encabezado. Consulte las [Macros de formato de archivo](../formats/file-formats.md) para obtener una lista y definiciones completas.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -90,7 +90,7 @@ Macros utilizadas solo en campos de encabezado. Consulte las macros [Formato](..
 
 ## Macros de fila de datos {#data-row-macros}
 
-Macros utilizadas solo en campos de encabezado. Consulte las macros [Formato](../formats/file-formats.md) de archivo para obtener una lista y definiciones completas.
+Macros utilizadas solo en campos de encabezado. Consulte las [Macros de formato de archivo](../formats/file-formats.md) para obtener una lista y definiciones completas.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
