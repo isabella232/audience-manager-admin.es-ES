@@ -21,11 +21,11 @@ Utilice la página [!UICONTROL Servers] de la herramienta de administración de 
 
 >[!NOTE]
 >
->Debe tener la [!UICONTROL DEXADMIN] función para eliminar los servidores existentes.
+>Debe tener la función [!UICONTROL DEXADMIN] para eliminar los servidores existentes.
 
 1. Para eliminar un servidor existente, haga clic en **[!UICONTROL Servers]**.
 
    ![Resultado del paso](assets/servers.png)
 
-1. Haga clic ![](assets/icon_delete.png) en la **[!UICONTROL Actions]** columna del servidor deseado.
-1. Click **[!UICONTROL OK]** to confirm the deletion.
+1. Haga clic en ![](assets/icon_delete.png) en la columna **[!UICONTROL Actions]** del servidor deseado.
+1. Haga clic en **[!UICONTROL OK]** para confirmar la eliminación.
