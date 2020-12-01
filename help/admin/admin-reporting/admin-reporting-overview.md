@@ -23,4 +23,4 @@ Administre los informes de Audience Manager creando nuevos informes o editando o
 
 Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
 
-Use el [!UICONTROL Search] cuadro o los controles de paginación en la parte inferior de la lista para encontrar el informe deseado.
+Utilice el cuadro [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar el informe deseado.
