@@ -25,9 +25,9 @@ Vista o edición de proveedores de datos para contenedores.
 
 1. Haga clic en **[!UICONTROL Companies]**, luego localice y haga clic en la compañía deseada para mostrar su [!UICONTROL Profile] página.
 
-   Use el [!UICONTROL Search] cuadro o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
+   Use el cuadro [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
 
-1. Click the **[!UICONTROL Containers]** tab.
+1. Haga clic en la ficha **[!UICONTROL Containers]**.
 
    ![](assets/containers.png)
 
@@ -35,11 +35,11 @@ Vista o edición de proveedores de datos para contenedores.
 
    ![Resultado del paso](assets/containers_edit.png)
 
-1. Mueva los orígenes de datos de las **[!UICONTROL Available Data Sources]** listas y **[!UICONTROL Selected Data Sources for This Container]** seleccionando los orígenes de datos deseados y haciendo clic en las flechas derecha o izquierda según sea necesario.
+1. Mueva los orígenes de datos de las listas **[!UICONTROL Available Data Sources]** y **[!UICONTROL Selected Data Sources for This Container]** seleccionando los orígenes de datos deseados y haciendo clic en las flechas derecha o izquierda según sea necesario.
 
-   También puede realizar esta tarea desde la página [del](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)proveedor de datos de terceros.
+   También puede realizar esta tarea desde la página [Proveedores de datos de terceros](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689).
 
-1. Haga clic **[!UICONTROL Save]** si ha realizado cambios.
+1. Haga clic en **[!UICONTROL Save]** si ha realizado cambios.
 
 >[!MORELIKETHIS]
 >
