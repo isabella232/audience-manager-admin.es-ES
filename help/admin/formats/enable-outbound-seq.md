@@ -1,28 +1,25 @@
 ---
-description: Puede activar las transferencias por lotes salientes binarias de archivos de secuencia de Hadoop (SEQ) para clientes Audience Manager.
-seo-description: Puede activar las transferencias por lotes salientes binarias de archivos de secuencia de Hadoop (SEQ) para clientes Audience Manager.
-seo-title: ' Habilitar las transferencias salientes de archivos de secuencias de Hadoop'
+description: Puede habilitar las transferencias por lotes salientes de archivos de secuencias de Hadoop binarios (SEQ) para clientes Audience Manager.
+seo-description: You can enable binary Hadoop Sequence Files (SEQ) outbound batch transfers for Audience Manager customers.
+seo-title: Enable Hadoop Sequence File Transfers for Outbound
 title: ' Habilitar las transferencias salientes de archivos de secuencias de Hadoop'
 uuid: 301985b1-5ff6-4112-a353-2e5a97e7eec0
-translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+exl-id: 45a72422-9e72-46f9-835e-ed0dd88152d2
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 18%
+source-wordcount: '91'
+ht-degree: 15%
 
 ---
 
-
-#  Habilitar las transferencias salientes de archivos de secuencias de Hadoop{#enable-hadoop-sequence-file-transfers-for-outbound}
+#  Habilitar las transferencias salientes de archivos de secuencias de Hadoop {#enable-hadoop-sequence-file-transfers-for-outbound}
 
 Puede habilitar las transferencias binarias [!DNL Hadoop Sequence Files] ([!DNL SEQ]) por lotes salientes para los clientes Audience Manager.
 
-<!-- REMOVED FROM PUBLIC DOCS: The advantages of using [!DNL Hadoop SEQ] files are listed in the [public documentation](https://marketing.adobe.com/resources/help/en_US/aam/outbound-seq-files.html). -->
+Para habilitar las transferencias de archivos salientes [!DNL SEQ]:
 
-Para habilitar las transferencias de archivos de salida [!DNL SEQ]:
-
-1. Seleccione la compañía y el destino para el que desea habilitar las transferencias de archivos salientes [!DNL SEQ].
+1. Seleccione la empresa y el destino para el que desea habilitar las transferencias de archivos salientes [!DNL SEQ].
 1. En la interfaz **[!UICONTROL Edit Destinations]**, desplácese hacia abajo hasta **[!UICONTROL Batch Data]**.
 1. Seleccionar protocolo: **[!UICONTROL FTP]** o **[!UICONTROL S3]**.
 1. Seleccionar formato: **[!UICONTROL AAM-Outbound-SEQ (415)]**.
-1. Confirme haciendo clic en **[!UICONTROL Save]** en la parte inferior de la página. Ahora el cliente puede enviar archivos de secuencia de Hadoop al destino.
+1. Confirme haciendo clic en **[!UICONTROL Save]** en la parte inferior de la página. El cliente ahora puede enviar archivos de secuencia de Hadoop al destino.

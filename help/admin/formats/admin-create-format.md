@@ -1,51 +1,50 @@
 ---
-description: Utilice la página Formatos de la herramienta Administración de Audience Manager para crear un nuevo formato o editar uno existente.
-seo-description: Utilice la página Formatos de la herramienta Administración de Audience Manager para crear un nuevo formato o editar uno existente.
-seo-title: Crear o editar un formato
+description: Utilice la página Formatos de la herramienta de administración de Audience Manager para crear un nuevo formato o editar uno existente.
+seo-description: Use the Formats page in the Audience Manager Admin tool to create a new format or to edit an existing format.
+seo-title: Create or Edit a Format
 title: Crear o editar un formato
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
-translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+exl-id: 3c97d1e9-8093-4181-a1fd-fb1816cdaa3d
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 4%
+source-wordcount: '420'
+ht-degree: 3%
 
 ---
 
-
 # Crear o editar un formato {#create-or-edit-a-format}
 
-Utilice la página [!UICONTROL Formats] de la herramienta de administración de Audience Manager para crear un nuevo formato o editar un formato existente.
+Utilice la página [!UICONTROL Formats] de la herramienta de administración del Audience Manager para crear un nuevo formato o editar un formato existente.
 
 <!-- t_create_format.xml -->
 
 >[!TIP]
 >
->Al seleccionar un formato para los datos salientes, lo mejor es, si es posible, reutilizar un formato existente. El uso de un formato ya probado garantiza que los datos salientes se generarán correctamente. Para ver exactamente cómo se formatea un formato existente, haga clic en la opción [!UICONTROL Formats] de la barra de menús y busque el formato por nombre o por número de ID. Los formatos o macros con formato incorrecto utilizados en los formatos proporcionan una salida con formato incorrecto o evitan que la información se muestre por completo.
+>Al seleccionar un formato para los datos salientes, es mejor, si es posible, reutilizar un formato existente. El uso de un formato ya probado garantiza que los datos salientes se generarán correctamente. Para ver exactamente cómo se formatea un formato existente, haga clic en la opción [!UICONTROL Formats] de la barra de menús y busque el formato por nombre o por número de ID. Los formatos o macros mal formateados utilizados en formatos proporcionan una salida con formato incorrecto o evitan que la información se emita por completo.
 
-1. Para crear un nuevo formato, haga clic en **[!UICONTROL Formats]** > **[!UICONTROL Add Format]**. Para editar un formato existente, haga clic en el formato deseado en la columna **[!UICONTROL Name]**.
+1. Para crear un nuevo formato, haga clic en **[!UICONTROL Formats]** > **[!UICONTROL Add Format]**. Para editar un formato existente, haga clic en el formato deseado en la columna **[!UICONTROL Name]** .
 
    ![](assets/create_format.png)
 
 1. Rellene los campos:
-   * **Nombre:**  (obligatorio) Proporcione un nombre descriptivo para el formato.
-   * **Tipo:**  (obligatorio) Seleccione el formato deseado:
-      * **[!UICONTROL File]**:: Envía datos mediante  [!DNL FTP] archivos.
-      * **[!UICONTROL HTTP]**:: Incluye los datos en un  [!DNL JSON] envoltorio.
+   * **Nombre:**  (obligatorio) proporcione un nombre descriptivo para el formato.
+   * **Tipo:** (obligatorio) seleccione el formato deseado:
+      * **[!UICONTROL File]**: Envía datos a través de  [!DNL FTP] archivos.
+      * **[!UICONTROL HTTP]**: Incluye los datos en un  [!DNL JSON] envoltorio.
 
 1. (Condicional) Si elige **[!UICONTROL File]**, rellene los campos:
 
    >[!NOTE]
    >
-   >Para obtener una lista de las macros disponibles, consulte [Macros de formato de archivo](../formats/file-formats.md#concept_A867101505074418A58DE325949E5089) y [Macros de formato HTTP](../formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE).
+   >Para obtener una lista de macros disponibles, consulte [Macros de formato de archivo](../formats/file-formats.md#concept_A867101505074418A58DE325949E5089) y [Macros de formato HTTP](../formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE).
 
-   * **[!UICONTROL File Name]:** Especifique el nombre de archivo del archivo de transferencia de datos.
+   * **[!UICONTROL File Name]:** especifique el nombre del archivo para el archivo de transferencia de datos.
    * **Encabezado:** especifique el texto que aparece en la primera fila del archivo de transferencia de datos.
-   * **[!UICONTROL Data Row]:** Especifique el texto que aparece en cada fila de salida del archivo.
-   * **[!UICONTROL Maximum File Size (In MB)]:** Especifique el tamaño máximo de archivo para los archivos de transferencia de datos. Los archivos comprimidos deben ser menores que 100 MB. No hay límite en el tamaño del archivo sin comprimir.
-   * **[!UICONTROL Compression]:** Seleccione el tipo de compresión que desee: gz o zip para sus archivos de datos. Para que envío [!UICONTROL AWS S3], debe utilizar archivos .gz o sin comprimir.
-   * **[!UICONTROL .info Receipt]:** Especifica que se genera un archivo de control de transferencia ([!DNL .info]). El archivo [!DNL .info] proporciona información de metadatos sobre las transferencias de archivos para que los socios puedan verificar que el Audience Manager haya gestionado correctamente las transferencias de archivos. Para obtener más información, consulte [Transfer-Control Files for Log File Transfers](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html).
-   * **[!UICONTROL MD5 Checksum Receipt]:** Especifica que se genera un cobro de  [!DNL MD5] suma de comprobación. Recibo [!DNL MD5] de suma de comprobación para que los socios puedan verificar que el Audience Manager haya gestionado correctamente la transferencia completa.
+   * **[!UICONTROL Data Row]:** especifique el texto que aparece en cada fila de salida del archivo.
+   * **[!UICONTROL Maximum File Size (In MB)]:** Especifique el tamaño máximo de archivo para los archivos de transferencia de datos. Los archivos comprimidos deben tener un tamaño inferior a 100 MB. No hay límite en el tamaño de archivo sin comprimir.
+   * **[!UICONTROL Compression]:** seleccione el tipo de compresión deseado: gz o zip para sus archivos de datos. Para el envío a [!UICONTROL AWS S3], debe utilizar archivos .gz o sin comprimir.
+   * **[!UICONTROL .info Receipt]:** Especifica que se genera un archivo de control de transferencia ([!DNL .info]). El archivo [!DNL .info] proporciona información de metadatos sobre las transferencias de archivos para que los socios puedan comprobar que el Audience Manager ha gestionado correctamente las transferencias de archivos. Para obtener más información, consulte [Archivos de transferencia y control para transferencias de archivos de registro](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en).
+   * **[!UICONTROL MD5 Checksum Receipt]:** Especifica que se genera un recibo de suma de  [!DNL MD5] comprobación. El [!DNL MD5] recibo de suma de comprobación para que los socios puedan comprobar que el Audience Manager gestionó correctamente la transferencia completa.
 
 1. (Condicional) Si elige **[!UICONTROL HTTP]**, rellene los campos:
 

@@ -1,125 +1,124 @@
 ---
-description: Utilice la página Compañías de la herramienta Administración de Audience Manager para crear una nueva compañía.
-seo-description: Utilice la página Compañías de la herramienta Administración de Audience Manager para crear una nueva compañía.
-seo-title: Crear un perfil de compañía
+description: Utilice la página Empresas de la herramienta Administración de Audience Manager para crear una nueva empresa.
+seo-description: Use the Companies page in the Audience Manager Admin tool to create a new company.
+seo-title: Create a Company Profile
 title: Crear un perfil de compañía
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
-translation-type: tm+mt
-source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
+exl-id: 80bb8a89-0207-4645-ac42-e73cd10561de
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '933'
 ht-degree: 4%
 
 ---
 
-
 # Crear un perfil de compañía {#create-a-company-profile}
 
-Utilice la página [!UICONTROL Companies] de la herramienta de administración de Audience Manager para crear una nueva compañía.
+Utilice la página [!UICONTROL Companies] de la herramienta Administración de Audience Manager para crear una nueva empresa.
 
 <!-- t_create_company.xml -->
 
 >[!NOTE]
 >
->Debe tener la función **[!UICONTROL DEXADMIN]** para crear nuevas compañías.
+>Debe tener la función **[!UICONTROL DEXADMIN]** para crear nuevas empresas.
 
 1. Haga clic **[!UICONTROL Companies]** > **[!UICONTROL Add Company]**.
 1. Rellene los campos:
 
-   * **[!UICONTROL Name]**:: (Requerido) Especifique el nombre de la compañía.
-   * **[!UICONTROL Description]**:: (Requerido) Proporcione información descriptiva sobre la compañía, como la industria o su nombre completo.
-   * **[!UICONTROL Subdomain]**:: (Requerido) Especifique el subdominio de la compañía. El texto que introduzca es lo que se muestra como subdominio de la llamada de evento. Esto no se puede cambiar. Debe ser una cadena de [!DNL URL] caracteres válidos.
+   * **[!UICONTROL Name]**: (Obligatorio) Especifique el nombre de la empresa.
+   * **[!UICONTROL Description]**: (Obligatorio) Proporcione información descriptiva sobre la empresa, como la industria o su nombre completo.
+   * **[!UICONTROL Subdomain]**: (Obligatorio) Especifique el subdominio de la empresa. El texto que introduzca es lo que se muestra como el subdominio de la llamada de evento. Esto no se puede cambiar. Debe ser una cadena de caracteres [!DNL URL] válidos.
 
-      Por ejemplo, si su compañía se ha denominado [!DNL AcmeCorp], el subdominio será [!DNL acmecorp].
+      Por ejemplo, si su empresa se llama [!DNL AcmeCorp], el subdominio será [!DNL acmecorp].
 
-      Audience Manager utiliza el subdominio para [!UICONTROL Data Collection Server] (DCS). En el ejemplo anterior, si la compañía completa [!DNL URL] en [!UICONTROL DCS] sería [!DNL acmecorp.demdex.net].
+      Audience Manager utiliza el subdominio para el [!UICONTROL Data Collection Server] (DCS). En el ejemplo anterior, si el [!DNL URL] completo de su empresa en [!UICONTROL DCS] sería [!DNL acmecorp.demdex.net].
 
-   * **[!UICONTROL Lifecyle]**:: Especifique la etapa deseada para la compañía:
-      * **[!UICONTROL Active]**:: Especifique que la compañía será un cliente Audience Manager activo. Una cuenta [!UICONTROL Active] significa un cliente que paga, no sólo por consultoría, sino por el SKU del Audience Manager.
-      * **[!UICONTROL Demo]**:: Especifique que la compañía será solo para fines de demostración. Los datos de sistema de informes se falsificarán automáticamente.
-      * **[!UICONTROL Prospect]**:: Especifique que la compañía es un cliente Audience Manager potencial, como una compañía que se le otorga de forma gratuita  [!DNL POC] o una configuración de cuenta para una demostración de ventas.
-      * **[!UICONTROL Test]**:: Especifique que la compañía será únicamente para pruebas internas.
-   * **[!UICONTROL Account Types]**:: Especifique el conjunto completo de tipos de cuenta para esta compañía. Ningún tipo de cuenta se excluye mutuamente con ningún otro tipo.
-      * **[!UICONTROL Full AAM]**:: Especifique que la compañía tendrá una cuenta de Adobe Audience Manager completa y que los usuarios tendrán acceso de inicio de sesión.
-      * **[!UICONTROL MMP]**:: Especifique que la compañía se ha habilitado para utilizar las  [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP]) capacidades. El [!UICONTROL MMP] permite que las audiencias se compartan en el Experience Cloud mediante un [!UICONTROL Experience Cloud ID] ([!DNL MCID]) asignado a cada visitante y luego utilizado por el Audience Manager. Si selecciona este tipo de cuenta, el [!UICONTROL Experience Cloud ID Service] también se selecciona automáticamente.
+   * **[!UICONTROL Lifecyle]**: Especifique el escenario deseado para la empresa:
+      * **[!UICONTROL Active]**: Especifique que la empresa será un cliente Audience Manager activo. Una cuenta [!UICONTROL Active] significa que un cliente paga, no solo por consultoría, sino por el SKU del Audience Manager.
+      * **[!UICONTROL Demo]**: Especifique que la empresa solo será para fines de demostración. Los datos de los informes se falsificarán automáticamente.
+      * **[!UICONTROL Prospect]**: Especifique que la empresa es un cliente Audience Manager potencial, como que una empresa recibe una configuración gratuita  [!DNL POC] o de cuenta para una demostración de ventas.
+      * **[!UICONTROL Test]**: Especifique que la empresa solo se utilizará para pruebas internas.
+   * **[!UICONTROL Account Types]**: Especifique el conjunto completo de tipos de cuenta para esta empresa. Ningún tipo de cuenta se excluye mutuamente con ningún otro tipo.
+      * **[!UICONTROL Full AAM]**: Especifique que la empresa tendrá una cuenta completa de Adobe Audience Manager y que los usuarios tendrán acceso de inicio de sesión.
+      * **[!UICONTROL MMP]**: Especifique que la empresa ha sido habilitada para utilizar las capacidades  [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP]). El [!UICONTROL MMP] permite compartir audiencias en el Experience Cloud mediante un [!UICONTROL Experience Cloud ID] ([!DNL MCID]) asignado a cada visitante y luego utilizado por el Audience Manager. Si selecciona este tipo de cuenta, el [!UICONTROL Experience Cloud ID Service] también se selecciona automáticamente.
 
-         Para obtener más información, consulte [Servicios de Audiencias - Perfil maestro de mercadotecnia](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
-   * **[!UICONTROL Data Source]**:: Especifique que la compañía es un proveedor de datos de terceros dentro de Audience Manager.
-   * **[!UICONTROL Targeting Partner]**:: Especifique que la compañía actúa como una plataforma de objetivo para clientes Audience Manager.
-   * **[!UICONTROL Visitor ID Service]**:: Especifique que la compañía se ha habilitado para usar el  [!UICONTROL Experience Cloud Visitor ID Service].
+         Para obtener más información, consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
+   * **[!UICONTROL Data Source]**: Especifique que la empresa es un proveedor de datos de terceros dentro del Audience Manager.
+   * **[!UICONTROL Targeting Partner]**: Especifique que la empresa actúa como plataforma de segmentación para los clientes Audience Manager.
+   * **[!UICONTROL Visitor ID Service]**: Especifique que la empresa ha sido habilitada para utilizar  [!UICONTROL Experience Cloud Visitor ID Service].
 
-      El [!UICONTROL Experience Cloud Visitor ID Service] proporciona un ID de visitante universal en todas las soluciones de Experience Cloud. Para obtener más información, consulte la [guía del usuario del servicio de ID de Visitante de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html).
+      El [!UICONTROL Experience Cloud Visitor ID Service] proporciona un ID de visitante universal para las soluciones de Experience Cloud. Para obtener más información, consulte la [guía del usuario del servicio de ID de visitante de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
 
-   * **[!UICONTROL Agency]**:: Especifique que la compañía tendrá una  [!UICONTROL Agency] cuenta.
+   * **[!UICONTROL Agency]**: Especifique que la empresa tendrá una  [!UICONTROL Agency] cuenta.
 
 
 
-1. Haga clic **[!UICONTROL Create]**. Continúe con las instrucciones de [Editar un Perfil de Compañía](../companies/admin-manage-company-profiles.md#edit-company-profile).
+1. Haga clic **[!UICONTROL Create]**. Continúe con las instrucciones de [Editar un perfil de empresa](../companies/admin-manage-company-profiles.md#edit-company-profile).
 
-   ![Resultado del paso](assets/add_company.png)
+   ![Resultado de los pasos](assets/add_company.png)
 
 ## Editar un perfil de compañía {#edit-company-profile}
 
-Edite el perfil de una compañía, incluido su nombre, descripción, subdominio, ciclo vital, etc.
+Edite el perfil de una empresa, incluido su nombre, descripción, subdominio, ciclo vital, etc.
 
 <!-- t_edit_company_profile.xml -->
 
-1. Haga clic en **[!UICONTROL Companies]**, luego localice y haga clic en la compañía deseada para mostrar su [!UICONTROL Profile] página.
+1. Haga clic en **[!UICONTROL Companies]**, luego localice y haga clic en la empresa que desee para mostrar su página [!UICONTROL Profile].
 
-   Use el cuadro [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada. Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
+   Utilice el cuadro [!UICONTROL Search] o los controles de paginación situados en la parte inferior de la lista para encontrar la empresa que desee. Para ordenar cada columna en orden ascendente o descendente, haga clic en el encabezado de la columna que desee.
 
-   ![Resultado del paso](assets/profile_company.png)
+   ![Resultado de los pasos](assets/profile_company.png)
 
 1. Edite los campos como sea necesario:
 
-   * **[!UICONTROL Name]**:: Edite el nombre de la compañía. Se trata de un campo obligatorio.
-   * **[!UICONTROL Description]**:: Edite la descripción de la compañía. Se trata de un campo obligatorio.
-   * **[!UICONTROL Subdomain]**:: (Requerido) Especifique el subdominio de la compañía. El texto que introduzca es lo que se muestra como subdominio de la llamada de evento. Esto no se puede cambiar. Debe ser una cadena de [!DNL URL] caracteres válidos.
+   * **[!UICONTROL Name]**: Edite el nombre de la empresa. Se trata de un campo obligatorio.
+   * **[!UICONTROL Description]**: Edite la descripción de la empresa. Se trata de un campo obligatorio.
+   * **[!UICONTROL Subdomain]**: (Obligatorio) Especifique el subdominio de la empresa. El texto que introduzca es lo que se muestra como el subdominio de la llamada de evento. Esto no se puede cambiar. Debe ser una cadena de caracteres [!DNL URL] válidos.
 
-      Por ejemplo, si su compañía se ha denominado [!DNL AcmeCorp], el subdominio será [!DNL acmecorp].
+      Por ejemplo, si su empresa se llama [!DNL AcmeCorp], el subdominio será [!DNL acmecorp].
 
-      Audience Manager utiliza el subdominio para [!UICONTROL Data Collection Server] (DCS). En el ejemplo anterior, si la compañía completa [!DNL URL] en [!UICONTROL DCS] sería [!DNL acmecorp.demdex.net].
+      Audience Manager utiliza el subdominio para el [!UICONTROL Data Collection Server] (DCS). En el ejemplo anterior, si el [!DNL URL] completo de su empresa en [!UICONTROL DCS] sería [!DNL acmecorp.demdex.net].
 
-   * **[!UICONTROL imsOrgld]**:: ([!UICONTROL Identity Management System Organization ID]) Este ID le permite conectar su compañía con el Adobe Experience Cloud.
-   * **[!UICONTROL Lifecyle]**:: Especifique la etapa deseada para la compañía:
-      * **[!UICONTROL Active]**:: Especifique que la compañía será un cliente Audience Manager activo. Una cuenta activa significa un cliente de pago, no sólo por consultoría, sino también por SKU de Audience Manager.
-      * **[!UICONTROL Demo]**:: Especifique que la compañía será solo para fines de demostración. Los datos de sistema de informes se falsificarán automáticamente.
-      * **[!UICONTROL Prospect]**:: Especifique que la compañía es un cliente Audience Manager potencial, como una compañía que se le otorga de forma gratuita  [!DNL POC] o una configuración de cuenta para una demostración de ventas.
-      * **[!UICONTROL Test]**:: Especifique que la compañía será únicamente para pruebas internas.
-   * **[!UICONTROL Account Types]**:: Especifique el conjunto completo de tipos de cuenta para esta compañía. Ningún tipo de cuenta se excluye mutuamente con ningún otro tipo.
-      * **[!UICONTROL Full AAM]**:: Especifique que la compañía tendrá una cuenta de Adobe Audience Manager completa y que los usuarios tendrán acceso de inicio de sesión.
-      * **[!UICONTROL MMP]**:: Especifique que la compañía se ha habilitado para utilizar las funciones de Perfil maestro de mercadotecnia ([!UICONTROL MMP]).
+   * **[!UICONTROL imsOrgld]**: ([!UICONTROL Identity Management System Organization ID]) Este ID le permite conectar su empresa con Adobe Experience Cloud.
+   * **[!UICONTROL Lifecyle]**: Especifique el escenario deseado para la empresa:
+      * **[!UICONTROL Active]**: Especifique que la empresa será un cliente Audience Manager activo. Una cuenta activa significa un cliente de pago, no solo para consultoría, sino para el SKU del Audience Manager.
+      * **[!UICONTROL Demo]**: Especifique que la empresa solo será para fines de demostración. Los datos de los informes se falsificarán automáticamente.
+      * **[!UICONTROL Prospect]**: Especifique que la empresa es un cliente Audience Manager potencial, como que una empresa recibe una configuración gratuita  [!DNL POC] o de cuenta para una demostración de ventas.
+      * **[!UICONTROL Test]**: Especifique que la empresa solo se utilizará para pruebas internas.
+   * **[!UICONTROL Account Types]**: Especifique el conjunto completo de tipos de cuenta para esta empresa. Ningún tipo de cuenta se excluye mutuamente con ningún otro tipo.
+      * **[!UICONTROL Full AAM]**: Especifique que la empresa tendrá una cuenta completa de Adobe Audience Manager y que los usuarios tendrán acceso de inicio de sesión.
+      * **[!UICONTROL MMP]**: Especifique que la empresa ha sido habilitada para utilizar las capacidades del perfil de marketing maestro ([!UICONTROL MMP]).
 
          Si selecciona este tipo de cuenta, **[!UICONTROL Visitor ID Service]** también se selecciona automáticamente.
-Para obtener más información, consulte [Servicios de Audiencias - Perfil maestro de mercadotecnia](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
-   * **[!UICONTROL Data Source]**:: Especifique que la compañía es un proveedor de datos de terceros dentro de Audience Manager.
-   * **[!UICONTROL Targeting Partner]**:: Especifique que la compañía actúa como una plataforma de objetivo para clientes Audience Manager.
-   * **[!UICONTROL Visitor ID Service]**:: Especifique que la compañía se ha habilitado para usar el servicio de ID de Visitante de Experience Cloud.
+Para obtener más información, consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en).
+   * **[!UICONTROL Data Source]**: Especifique que la empresa es un proveedor de datos de terceros dentro del Audience Manager.
+   * **[!UICONTROL Targeting Partner]**: Especifique que la empresa actúa como plataforma de segmentación para los clientes Audience Manager.
+   * **[!UICONTROL Visitor ID Service]**: Especifique que la empresa ha sido habilitada para utilizar el servicio de ID de visitante de Experience Cloud.
 
-      El servicio de identificación de visitantes de Experience Cloud proporciona un ID de visitante universal en las soluciones de Experience Cloud. Para obtener más información, consulte la [guía del usuario del servicio de ID de Visitante de Experience Cloud](https://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html).
+      El servicio de identificación de visitantes de Experience Cloud proporciona un ID de visitante universal en las soluciones de Experience Cloud. Para obtener más información, consulte la [guía del usuario del servicio de ID de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 
-   * **[!UICONTROL Agency]**:: Especifique que la compañía tendrá una cuenta de agencia.
+   * **[!UICONTROL Agency]**: Especifique que la empresa tendrá una cuenta de Agencia.
    * **[!UICONTROL Features]**: Seleccione las opciones que desee:
-      * **[!UICONTROL Password Expiration]**:: Establece que todas las contraseñas de usuario de esta compañía caduquen pasados 90 días para aumentar la seguridad del Audience Manager.
-      * **[!UICONTROL Reporting]**:: Habilita el sistema de informes del Audience Manager para esta compañía.
-      * **[!UICONTROL Role Based Access Controls]**:: Habilite controles de acceso basados en roles para esta compañía. Los controles de acceso basados en roles permiten crear grupos de usuarios con diferentes permisos de acceso. Los usuarios individuales dentro de estos grupos pueden acceder únicamente a funciones específicas en Audience Manager.
+      * **[!UICONTROL Password Expiration]**: Establece que todas las contraseñas de usuario de esta empresa caduquen después de 90 días para aumentar la seguridad del Audience Manager.
+      * **[!UICONTROL Reporting]**: Habilita los informes de Audience Manager para esta empresa.
+      * **[!UICONTROL Role Based Access Controls]**: Habilite los controles de acceso basados en roles para esta empresa. Los controles de acceso basados en funciones le permiten crear grupos de usuarios con diferentes permisos de acceso. Los usuarios individuales de estos grupos pueden acceder solo a las funciones específicas del Audience Manager.
 
 
 1. Haga clic **[!UICONTROL Submit Updates]**.
 
-## Eliminar un Perfil de Compañía {#delete-company-profile}
+## Eliminar un perfil de compañía {#delete-company-profile}
 
-Utilice la página [!UICONTROL Companies] de la herramienta Audience Manager [!UICONTROL Admin] para eliminar una compañía existente.
+Utilice la página [!UICONTROL Companies] de la herramienta [!UICONTROL Admin] Audience Manager para eliminar una empresa existente.
 
 <!-- t_delete_company.xml -->
 
 >[!NOTE]
 >
->Debe tener la función [!UICONTROL DEXADMIN] para eliminar las compañías existentes.
+>Debe tener la función [!UICONTROL DEXADMIN] para eliminar las empresas existentes.
 
-1. Para eliminar una compañía existente, haga clic en **[!UICONTROL Companies]**.
+1. Para eliminar una empresa existente, haga clic en **[!UICONTROL Companies]**.
 
-   ![Resultado del paso](assets/companies.png)
+   ![Resultado de los pasos](assets/companies.png)
 
-1. Haga clic ![](assets/icon_delete.png) en la columna **[!UICONTROL Actions]** de la compañía deseada.
+1. Haga clic ![](assets/icon_delete.png) en la columna **[!UICONTROL Actions]** de la empresa deseada.
 1. Haga clic en **[!UICONTROL OK]** para confirmar la eliminación.
