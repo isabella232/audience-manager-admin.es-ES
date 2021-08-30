@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: Solución de problemas de configuración de destino
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 4%
@@ -74,7 +74,7 @@ El proceso de salida se ejecuta dos veces al día y varios procesos (salida, pub
 
 ### Tamaños de división de archivos demasiado grandes
 
-Cuando se envían archivos a destinos, se pueden dividir los archivos salientes más grandes en fragmentos de archivos. Asegúrese de que los fragmentos de archivos individuales no superen los 10 GB. Consulte también [Nombre del archivo de datos de salida: Sintaxis y ejemplos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
+Cuando se envían archivos a destinos, se pueden dividir los archivos salientes más grandes en fragmentos de archivos. Asegúrese de que los fragmentos de archivos individuales no superen los 10 GB. Consulte también [Nombre del archivo de datos de salida: Sintaxis y ejemplos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Cómo configurar sus destinos para exportar ID de Experience Cloud, ID de cliente o ID de Audience Manager en archivos de datos de salida {#set-up-destinations-export}
