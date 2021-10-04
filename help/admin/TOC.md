@@ -3,10 +3,8 @@ product: audience manager
 audience: admin
 user-guide-title: Guía de administración de Audience Manager
 breadcrumb-title: Guía de administración
-breadcrumb-url: /docs/audience-manager-admin/admin-guide/admin-home.html
 user-guide-description: La herramienta Audience Manager permite añadir y configurar compañías, servidores, informes, formatos y usuarios. También permite ver o editar su perfil personal.
-translation-type: tm+mt
-source-git-commit: fb3eb6ee29332a84f2f389d4c6a2b6e2b7d0fced
+source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
@@ -56,4 +54,4 @@ ht-degree: 100%
 + [Mi Perfil](admin-my-profile.md)
 + [Solución de problemas de configuración de destino](admin-destination-troubleshooting.md)
 + [Entorno beta](admin-beta-environment.md)
-+ [Actualizaciones de documentación](admin-doc-updates.md)
++ [Actualizaciones en la documentación de](admin-doc-updates.md)
