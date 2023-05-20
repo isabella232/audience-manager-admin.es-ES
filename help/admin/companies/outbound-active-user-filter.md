@@ -1,35 +1,34 @@
 ---
-description: Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. Es posible que desee filtrar para que los usuarios activos inserten datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un DSP. No puede utilizar este filtro con sincronización incremental.
-seo-description: Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. Es posible que desee filtrar para que los usuarios activos inserten datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un DSP. No puede utilizar este filtro con sincronización incremental.
-seo-title: Filtrar datos de salida solo por usuarios activos
+description: Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. DSP Es posible que desee filtrar para que los usuarios activos inserten los datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un grupo de destinatarios de un sitio de destino No puede utilizar este filtro con sincronización incremental.
+seo-description: Follow these instructions to generate a full synchronization file that includes recently active users only. You may want to filter for active users to push relevant data to an on-site targeting system or to limit the size of the files sent to a DSP. You cannot use this filter with incremental synchronization.
+seo-title: Filter Outbound Data by Active Users Only
 title: Filtrar datos de salida solo por usuarios activos
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: d501cfd1-64dd-448e-92c5-180c0081d3e5
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 8%
+source-wordcount: '217'
+ht-degree: 7%
 
 ---
 
-
 # Filtrar datos de salida solo por usuarios activos {#filter-outbound-data-by-active-users-only}
 
-Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. Es posible que desee filtrar para que los usuarios activos inserten datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un DSP. No puede utilizar este filtro con sincronización incremental.
+Siga estas instrucciones para generar un archivo de sincronización completo que incluya solo usuarios activos recientemente. DSP Es posible que desee filtrar para que los usuarios activos inserten los datos relevantes en un sistema de segmentación en el sitio o para limitar el tamaño de los archivos enviados a un grupo de destinatarios de un sitio de destino No puede utilizar este filtro con sincronización incremental.
 
 >[!NOTE]
 >
->No es necesario ver un visitante en un sitio de clientes seleccionado o en su tráfico de publicidad para calificar como &quot;activo&quot;. Pueden ser vistos por cualquier [!DNL Audience Manager] cliente o socio para calificar como &quot;activo&quot;.
+>No es necesario ver un visitante en el sitio de un cliente seleccionado ni en el tráfico de su anuncio para que se pueda considerar &quot;activo&quot;. Pueden ser vistos por cualquiera [!DNL Audience Manager] cliente o socio para calificar como &quot;activo&quot;.
 
 Para filtrar solo por usuarios activos:
 
 1. Haga clic **[!UICONTROL Companies]**.
-1. Seleccione la compañía con la que desee trabajar y haga clic en **[!UICONTROL Destinations]**.
-1. En la sección [!UICONTROL Batch Data], establezca las siguientes opciones:
+1. Seleccione la empresa con la que desea trabajar y haga clic en **[!UICONTROL Destinations]**.
+1. En el [!UICONTROL Batch Data] , establezca las siguientes opciones:
 
-   * **[!UICONTROL Sync Type]**:: Seleccione  **[!UICONTROL Customer]** o  **[!UICONTROL Platform]**.
-   * **[!UICONTROL Sync Type Lookback Period]**:: Este intervalo de tiempo define el intervalo del archivo de datos. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
-   * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. Recuerde que este filtro se aplica únicamente a los archivos de sincronización completa.
-   * **[!UICONTROL Full Sync Scheduled Run]**:: Esto determina la frecuencia con la que desea recibir este archivo. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** o **[!UICONTROL Never]** (para deshabilitar).
+   * **[!UICONTROL Sync Type]**: Seleccionar **[!UICONTROL Customer]** o **[!UICONTROL Platform]**.
+   * **[!UICONTROL Sync Type Lookback Period]**: Este intervalo de tiempo define el intervalo del archivo de datos. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
+   * **[!UICONTROL Incremental Sync Scheduled Run]**: Select **[!UICONTROL Never]**. Recuerde, este filtro se aplica solo a archivos de sincronización completos.
+   * **[!UICONTROL Full Sync Scheduled Run]**: determina la frecuencia con la que desea recibir este archivo. Las opciones incluyen **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**, o **[!UICONTROL Never]** (para deshabilitarla).
 
 1. Haga clic **[!UICONTROL Save]**.

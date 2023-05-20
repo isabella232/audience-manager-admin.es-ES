@@ -1,23 +1,22 @@
 ---
-description: Ejemplos de algunas combinaciones de macros HTTP más utilizadas.
-seo-description: Ejemplos de algunas combinaciones de macros HTTP más utilizadas.
-seo-title: Ejemplos de macros de formato HTTP
+description: Ejemplos de algunas combinaciones de macros HTTP comúnmente utilizadas.
+seo-description: Examples of some commonly used HTTP macro combinations.
+seo-title: HTTP Format Macro Examples
 title: Ejemplos de macros de formato HTTP
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 15%
+source-wordcount: '66'
+ht-degree: 12%
 
 ---
 
-
 # Ejemplos de macros de formato HTTP {#http-format-macro-examples}
 
-Ejemplos de algunas combinaciones de macros [!DNL HTTP] comúnmente utilizadas.
+Ejemplos de algunos de uso común [!DNL HTTP] combinaciones de macros.
 
-Consulte las [macros de formato HTTP](../formats/web-formats.md) para obtener una lista de las macros y sus definiciones.
+Consulte la [Macros de formato HTTP](../formats/web-formats.md) para obtener una lista de macros y sus definiciones.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +137,7 @@ Consulte las [macros de formato HTTP](../formats/web-formats.md) para obtener un
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Imprime una coma si los campos <code>segments</code> y <code>removedSegments</code> no están vacíos. Este condicional se puede utilizar para solicitudes de POST al concatenar listas para segmentos y segmentos eliminados. </p> </td> 
+   <td colname="col2"> <p>Imprime una coma si los campos <code>segments</code> y <code>removedSegments</code> no están vacías. Este condicional se puede utilizar para solicitudes de POST al concatenar listas para segmentos y segmentos eliminados. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,24 +1,23 @@
 ---
-description: Utilice la página Compañías para vista de una lista de compañías en la configuración de Audience Manager. Puede editar o eliminar compañías existentes o crear nuevas compañías, siempre que tenga asignadas las funciones de usuario correspondientes.
-seo-description: Utilice la página Compañías para vista de una lista de compañías en la configuración de Audience Manager. Puede editar o eliminar compañías existentes o crear nuevas compañías, siempre que tenga asignadas las funciones de usuario correspondientes.
-seo-title: Compañías
+description: Utilice la página Compañías para ver una lista de compañías en la configuración de su Audience Manager. Puede editar o eliminar empresas existentes o crear nuevas empresas, siempre que tenga asignadas las funciones de usuario adecuadas.
+seo-description: Use the Companies page to view a list of companies in your Audience Manager configuration. You can edit or delete existing companies or create new companies, providing that you have the appropriate user roles assigned.
+seo-title: Companies
 title: Compañías
 uuid: 64b467f4-5e2f-4637-a62d-9c70c8a1a5be
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: 03637648-3d59-4b8f-8e67-19c085da6387
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 1%
 
 ---
 
-
 # Compañías {#companies}
 
-Utilice la página [!UICONTROL Companies] para vista de una lista de compañías en la configuración del Audience Manager. Puede editar o eliminar compañías existentes o crear nuevas compañías, siempre que tenga asignadas las funciones de usuario correspondientes.
+Utilice el [!UICONTROL Companies] para ver una lista de empresas en la configuración de su Audience Manager. Puede editar o eliminar empresas existentes o crear nuevas empresas, siempre que tenga asignadas las funciones de usuario adecuadas.
 
 ![](assets/companies.png)
 
 Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
 
-Use el cuadro [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar la compañía deseada.
+Utilice el [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar la empresa deseada.

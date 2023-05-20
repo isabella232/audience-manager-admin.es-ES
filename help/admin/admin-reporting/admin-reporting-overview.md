@@ -1,21 +1,20 @@
 ---
-description: Administre los informes de Audience Manager creando nuevos informes o editando o eliminando los informes existentes. También puede asignar un usuario de portal como usuario de Tableau.
-seo-description: Administre los informes de Audience Manager creando nuevos informes o editando o eliminando los informes existentes. También puede asignar un usuario de portal como usuario de Tableau.
-seo-title: Informes
+description: Administre informes de Audience Manager creando nuevos informes o editando o eliminando los informes existentes. También puede asignar un usuario del portal como usuario de Tableau.
+seo-description: Manage Audience Manager reports by creating new reports or by editing or deleting existing reports. You can also assign a portal user as a Tableau user.
+seo-title: Reporting
 title: Informes
 uuid: d857044b-926d-4862-b8bc-799cb3ecca56
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: 3a8ac019-a91b-493c-a59f-700a2624c9ec
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
 
-
 # Informes {#reporting}
 
-Administre los informes de Audience Manager creando nuevos informes o editando o eliminando los informes existentes. También puede asignar un usuario de portal como [!DNL Tableau] usuario.
+Administre informes de Audience Manager creando nuevos informes o editando o eliminando los informes existentes. También puede asignar un usuario del portal como [!DNL Tableau] usuario.
 
 <!-- c_reporting.xml -->
 
@@ -23,4 +22,4 @@ Administre los informes de Audience Manager creando nuevos informes o editando o
 
 Puede ordenar cada columna en orden ascendente o descendente haciendo clic en el encabezado de la columna deseada.
 
-Utilice el cuadro [!UICONTROL Search] o los controles de paginación en la parte inferior de la lista para encontrar el informe deseado.
+Utilice el [!UICONTROL Search] o los controles de paginación situados en la parte inferior de la lista para buscar el informe deseado.

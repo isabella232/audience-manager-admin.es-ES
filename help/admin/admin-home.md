@@ -18,7 +18,7 @@ La herramienta Audience Manager permite añadir y configurar compañías, servid
 
 >[!IMPORTANT]
 >
-> La audiencia de este repositorio de documentación es Adobe-empleados internos. Si es cliente Audience Manager, vaya a la [Información general sobre la guía del Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> La audiencia de este repositorio de documentación son empleados internos del Adobe. Si es cliente Audience Manager de, vaya a la [información general sobre la guía del Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -42,7 +42,7 @@ La herramienta Audience Manager permite añadir y configurar compañías, servid
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Comunidad de Adobe Social</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Formación y tutoriales de Adobe</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
-     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/support/experience-cloud.html" format="https" scope="external"> Página de inicio de documentación del producto</a> </li> 
+     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/es/support/experience-cloud.html" format="https" scope="external"> Página de inicio de documentación del producto</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

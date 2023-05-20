@@ -1,27 +1,26 @@
 ---
-description: 'Utilice el registro de auditoría como primer lugar para depurar problemas de clientes. '
-seo-description: 'Utilice el registro de auditoría como primer lugar para depurar problemas de clientes. '
-seo-title: Registro de auditoría
+description: Utilice el registro de auditoría como primer lugar para depurar los problemas de los clientes.
+seo-description: Use Audit Logging as a first place to go when debugging customer issues.
+seo-title: Audit Logging
 title: Registro de auditoría
 uuid: null
-translation-type: tm+mt
-source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 9%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
-
 # Registro de auditoría {#audit-logging}
 
-Utilice [!UICONTROL  Audit Logging] como primer lugar para depurar problemas con los clientes.
+Uso [!UICONTROL  Audit Logging] como primer lugar al depurar problemas de los clientes.
 
 >[!NOTE]
 >
->La funcionalidad y la documentación [!UICONTROL Audit Logging] están actualmente en desarrollo y sujetas a cambios. Registre cualquier problema que encuentre en [!DNL JIRA] ([!DNL UI] equipo).
+>El [!UICONTROL Audit Logging] La funcionalidad y la documentación de están actualmente en desarrollo y sujetas a cambios. Registre cualquier problema que encuentre en [!DNL JIRA] ([!DNL UI] equipo).
 
-![Vista de registro de auditoría](assets/audit-logging-img.png)
+![Vista Registro de auditoría](assets/audit-logging-img.png)
 
 <!-- 
 

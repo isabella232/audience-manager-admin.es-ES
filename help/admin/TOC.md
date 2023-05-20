@@ -29,7 +29,7 @@ ht-degree: 96%
    + [Administrar los límites de la compañía](companies/admin-company-limits.md)
    + [Administrar usuarios de la compañía](companies/admin-manage-company-users.md)
    + [Filtrar datos de salida solo por usuarios activos](companies/outbound-active-user-filter.md)
-   + [Administrar acceso de incorporación para datos de segundo nivel](companies/admin-manage-onboarding-access.md)
+   + [Administrar el acceso de incorporación para datos de segundo nivel](companies/admin-manage-onboarding-access.md)
 + Servidores {#servers}
    + [Información general sobre servidores](admin-servers/admin-servers.md)
    + [Crear o editar un servidor FTP](admin-servers/create-ftp-server.md)
